@@ -14,3 +14,138 @@ Migrating to CreateAffiliates (20091231145514)
   [4;36;1mSQL (39.8ms)[0m   [0;1mSHOW FIELDS FROM `affiliates`[0m
   [4;35;1mSQL (1.2ms)[0m   [0mdescribe `affiliates`[0m
   [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `affiliates`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (53.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-31 12:32:20) [GET]
+
+NameError (uninitialized constant WelcomeController):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (58.1ms)
+Rendered rescues/_request_and_response (2.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AffiliatesController#index (for 127.0.0.1 at 2009-12-31 12:33:14) [GET]
+  [4;36;1mAffiliate Load (0.4ms)[0m   [0;1mSELECT * FROM `affiliates` [0m
+Rendering template within layouts/affiliates
+Rendering affiliates/index
+Completed in 204ms (View: 173, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AffiliatesController#new (for 127.0.0.1 at 2009-12-31 12:33:22) [GET]
+  [4;35;1mAffiliate Columns (35.2ms)[0m   [0mSHOW FIELDS FROM `affiliates`[0m
+Rendering template within layouts/affiliates
+Rendering affiliates/new
+Completed in 69ms (View: 21, DB: 35) | 200 OK [http://localhost/affiliates/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AffiliatesController#create (for 127.0.0.1 at 2009-12-31 13:48:00) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"zkKvupMlURueHk48DZfdIMYOw5wx1V1jMJ2b/eksRj4=", "affiliate"=>{"url"=>"ecaucp.org", "org_name"=>""}}
+  [4;36;1mAffiliate Columns (37.1ms)[0m   [0;1mSHOW FIELDS FROM `affiliates`[0m
+  [4;35;1mSQL (14.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mAffiliate Create (10.3ms)[0m   [0;1mINSERT INTO `affiliates` (`created_at`, `updated_at`, `url`, `org_name`) VALUES('2009-12-31 18:48:01', '2009-12-31 18:48:01', 'ecaucp.org', '')[0m
+  [4;35;1mSQL (19.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/affiliates/1
+Completed in 139ms (DB: 81) | 302 Found [http://localhost/affiliates]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AffiliatesController#show (for 127.0.0.1 at 2009-12-31 13:48:01) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mAffiliate Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `affiliates`[0m
+  [4;35;1mAffiliate Load (22.4ms)[0m   [0mSELECT * FROM `affiliates` WHERE (`affiliates`.`id` = 1) [0m
+Rendering template within layouts/affiliates
+Rendering affiliates/show
+Completed in 52ms (View: 14, DB: 25) | 200 OK [http://localhost/affiliates/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AffiliatesController#index (for 127.0.0.1 at 2009-12-31 13:48:13) [GET]
+  [4;36;1mAffiliate Load (0.3ms)[0m   [0;1mSELECT * FROM `affiliates` [0m
+Rendering template within layouts/affiliates
+Rendering affiliates/index
+  [4;35;1mAffiliate Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `affiliates`[0m
+Completed in 27ms (View: 13, DB: 2) | 200 OK [http://localhost/affiliates]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AffiliatesController#new (for 127.0.0.1 at 2009-12-31 13:48:20) [GET]
+  [4;36;1mAffiliate Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `affiliates`[0m
+Rendering template within layouts/affiliates
+Rendering affiliates/new
+Completed in 24ms (View: 10, DB: 1) | 200 OK [http://localhost/affiliates/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AffiliatesController#index (for 127.0.0.1 at 2009-12-31 13:57:53) [GET]
+  [4;35;1mAffiliate Load (0.3ms)[0m   [0mSELECT * FROM `affiliates` [0m
+Rendering template within layouts/affiliates
+Rendering affiliates/index
+  [4;36;1mAffiliate Columns (9.3ms)[0m   [0;1mSHOW FIELDS FROM `affiliates`[0m
+Completed in 37ms (View: 16, DB: 10) | 200 OK [http://localhost/affiliates]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AffiliatesController#new (for 127.0.0.1 at 2009-12-31 13:57:58) [GET]
+  [4;35;1mAffiliate Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `affiliates`[0m
+Rendering template within layouts/affiliates
+Rendering affiliates/new
+Completed in 24ms (View: 10, DB: 2) | 200 OK [http://localhost/affiliates/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AffiliatesController#create (for 127.0.0.1 at 2009-12-31 13:58:34) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"zkKvupMlURueHk48DZfdIMYOw5wx1V1jMJ2b/eksRj4=", "affiliate"=>{"url"=>"ucpmobile.org", "org_name"=>""}}
+  [4;36;1mAffiliate Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `affiliates`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAffiliate Create (0.3ms)[0m   [0;1mINSERT INTO `affiliates` (`created_at`, `updated_at`, `url`, `org_name`) VALUES('2009-12-31 18:58:34', '2009-12-31 18:58:34', 'ucpmobile.org', '')[0m
+  [4;35;1mSQL (25.3ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/affiliates/2
+Completed in 46ms (DB: 27) | 302 Found [http://localhost/affiliates]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AffiliatesController#show (for 127.0.0.1 at 2009-12-31 13:58:34) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mAffiliate Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `affiliates`[0m
+  [4;35;1mAffiliate Load (2.1ms)[0m   [0mSELECT * FROM `affiliates` WHERE (`affiliates`.`id` = 2) [0m
+Rendering template within layouts/affiliates
+Rendering affiliates/show
+Completed in 28ms (View: 6, DB: 5) | 200 OK [http://localhost/affiliates/2]
