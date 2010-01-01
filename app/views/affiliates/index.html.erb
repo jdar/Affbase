@@ -1,21 +1,9 @@
-<h1>Listing affiliates</h1>
 
-<table>
-  <tr>
-    <th>Org name</th>
-    <th>Url</th>
-  </tr>
+<h1>UCP Affiliates</h1>
 
 <% @affiliates.each do |affiliate| %>
-  <tr>
-    <td><%=h affiliate.org_name %></td>
-    <td><%=h affiliate.url %></td>
-    <td><%= link_to 'Show', affiliate %></td>
-    <td><%= link_to 'Edit', edit_affiliate_path(affiliate) %></td>
-    <td><%= link_to 'Destroy', affiliate, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
+  <%= render :partial => 'affiliate',  :collection => @affiliates %>
 <% end %>
-</table>
 
 <br />
 

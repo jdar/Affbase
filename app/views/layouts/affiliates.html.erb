@@ -5,13 +5,19 @@
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title>Affiliates: <%= controller.action_name %></title>
-  <%= stylesheet_link_tag 'scaffold' %>
+  <%= stylesheet_link_tag 'scaffold', 'ucp' %>
 </head>
 <body>
 
+<div id="brandingbar">
+  <div id="bbinner">a <a id="sllink" title="Life Without Limits" href="http://ucp.org"/>UCP Life Labs</a> experiment
+    </div>
+</div>
+
+<div id="contentwrap">
 <p style="color: green"><%= flash[:notice] %></p>
 
 <%= yield %>
-
+</div>
 </body>
 </html>
