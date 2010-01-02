@@ -94,6 +94,10 @@
       color: #fff;
       font-size:0.8em;
     }
+
+	div#add_affiliate {
+		clear: both;
+	}
     
     div#bbinner a {
       font-family: arial, helvetica, sans-serif;
