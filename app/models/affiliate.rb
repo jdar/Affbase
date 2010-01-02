@@ -1,4 +1,6 @@
 class Affiliate < ActiveRecord::Base
+
+require 'resolv'
     
   def ip
       begin
