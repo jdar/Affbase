@@ -1,6 +1,6 @@
 class Affiliate < ActiveRecord::Base
     
-  def get_ip
+  def ip
       begin
     ip = Resolv::getaddress(url)  
   rescue Exception => e
