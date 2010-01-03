@@ -17,4 +17,4 @@ config.action_controller.perform_caching             = false
 config.action_mailer.raise_delivery_errors = false
 
 # Texmate enhancements
-config.gem 'josevalim-rails-footnotes', :lib => 'rails-footnotes', :source => 'http://gems.github.com'
+# config.gem 'josevalim-rails-footnotes', :lib => 'rails-footnotes', :source => 'http://gems.github.com'
