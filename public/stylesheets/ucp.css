@@ -6,8 +6,6 @@
     }
     
     div#contentwrap {
-      position:relative;
-      top: 24px;
       left: 5%;
       float:left;
       display:block;
@@ -97,6 +95,9 @@
 
 	div#add_affiliate {
 		clear: both;
+		width: 90%;
+		float: left;
+		padding: .6em .9em;
 	}
     
     div#bbinner a {
