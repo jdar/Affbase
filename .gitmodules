@@ -1,0 +1,6 @@
+[submodule "vendor/plugins/rspec"]
+	path = vendor/plugins/rspec
+	url = git://github.com/dchelimsky/rspec.git
+[submodule "vendor/plugins/rails-footnotes"]
+	path = vendor/plugins/rails-footnotes
+	url = git://github.com/josevalim/rails-footnotes.git
