@@ -4,3 +4,6 @@
 [submodule "vendor/plugins/rails-footnotes"]
 	path = vendor/plugins/rails-footnotes
 	url = git://github.com/josevalim/rails-footnotes.git
+[submodule "vendor/plugins/webthumb"]
+	path = vendor/plugins/webthumb
+	url = git://github.com/simplificator/rwebthumb.git
