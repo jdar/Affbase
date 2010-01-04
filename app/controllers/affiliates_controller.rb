@@ -10,6 +10,17 @@ class AffiliatesController < ApplicationController
     end
   end
 
+  # GET /affiliates/list
+  # GET /affiliates/list.xml
+  def list
+    @affiliates = Affiliate.all
+
+    respond_to do |format|
+      format.html # list.html.erb
+      format.xml  { render :xml => @affiliates }
+    end
+  end 
+  
   # GET /affiliates/1
   # GET /affiliates/1.xml
   def show
