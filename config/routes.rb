@@ -7,6 +7,7 @@ ActionController::Routing::Routes.draw do |map|
   # Keep in mind you can assign values other than :controller and :action
     map.connect 'affiliates/list', :controller => 'affiliates', :action => 'list'
   map.resources :affiliates
+  map.resources :thumbnails
 
   # Sample of named route:
   #   map.purchase 'products/:id/purchase', :controller => 'catalog', :action => 'purchase'
