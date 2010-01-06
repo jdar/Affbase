@@ -4,9 +4,9 @@
 <ul>
 <% @affiliates.each do |affiliate| %>
   <li><a href="http://www.<%= affiliate.url %>"><%= affiliate.url %></a> 
-		<%= affiliate.ip %> 
+		<%= get_ip(affiliate.url)  %> 
 		<%= link_to 'Edit', edit_affiliate_path(affiliate) %>
-   <%= link_to 'Destroy', affiliate, :confirm => 'Are you sure?', :method => :delete %>
+   <%= button_to 'Destroy', affiliate, :confirm => 'Are you sure?', :method => :delete %>
 	</li>
 <% end %>
 </ul>

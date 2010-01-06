@@ -34,7 +34,7 @@ test:
   database: AffBase_test
   pool: 5
   username: root
-  password:
+  password: dcdc
   socket: /tmp/mysql.sock
 
 production:
