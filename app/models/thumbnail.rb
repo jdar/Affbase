@@ -2,11 +2,15 @@ class Thumbnail
   require "find"
   
   def initialize
-    @Thumbnails = Dir.glob("#{RAILS_ROOT}/PUBLIC/DATA/*.png")
+    @Thumbnails = Dir.glob("#{RAILS_ROOT}/public/data/*.png")
 
   end
   
+  def self.link
+    thumbnail = "xxx"
+  end
+  
   def self.all
-    Dir.glob("#{RAILS_ROOT}/PUBLIC/DATA/*.png")
+    Dir.glob("#{RAILS_ROOT}/public/data/*.png")
   end
 end
