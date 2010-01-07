@@ -1,5 +1,8 @@
-<h1>Thumbnails#index</h1>
-
-<% Thumbnails.each do |thumbnail|  %>
-	<%= thumbnail %>
+<h1>Thumbnails currently on file</h1>
+<ul>
+	
+<% @Thumbnails.each do |thumbnail|  %>
+	<li><%= image_tag url_for(thumbnail) %> - <%= thumbnail %></li>
 <% end -%>
+
+</ul>
