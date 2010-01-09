@@ -1,3 +1,36 @@
+== Welcome to Affbase
+
+Affbase is 
+
+
+== Required Libraries, Services
+
+Where possible required plugins and libraries have been linked as git submodules.
+
+Therefore, after you initially clone the repository from gitHub, you need to 
+initiate the submodules from the command line thusly:
+
+	> git submodule init
+	> git submodule update
+
+For more information, see: 
+http://woss.name/blog/2008/4/9/using-git-submodules-to-track-plugins.html
+
+=== Webthumb.bluga.net
+
+http://webthumb.bluga.net
+
+Thumbnails are generated via webthumb.bluga.net. This is a paid for service
+and you will need your own subscription and API key
+
+
+=== Simplificator rwebthumb
+
+http://github.com/simplificator/rwebthumb
+A Ruby wrapper for the webthumb API from http://webthumb.bluga.net and a generator
+for the easythumb API
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create 
