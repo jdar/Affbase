@@ -1,6 +1,10 @@
 == Welcome to Affbase
 
-Affbase is 
+Affbase is a prototype organizational database for organizations with affiliates
+or chapters. Affbase is designed specifically for the semantic web and provides
+tools both for content, rendering, and technical monitoring.
+
+Affbase was developed by United Cerebral Palsy (http://www.ucp.org)
 
 
 == Required Libraries, Services
