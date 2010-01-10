@@ -72,8 +72,9 @@ class AffiliatesController < ApplicationController
 
     respond_to do |format|
       if @affiliate.update_attributes(params[:affiliate])
+        @affiliate.generate_thumbnail
         flash[:notice] = 'Affiliate was successfully updated.'
-        format.html { redirect_to(@affiliate) }
+        format.html { redirect_to(affiliates_url) }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

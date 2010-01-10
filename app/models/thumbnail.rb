@@ -1,8 +1,9 @@
 class Thumbnail
+  attr_reader :id
   require "find"
   
-  def initialize
-    @Thumbnails = Dir.glob("#{RAILS_ROOT}/public/data/*.png")
+  def initialize(thumbnail)
+    @thumbnail = thumbnail
 
   end
   
@@ -11,6 +12,6 @@ class Thumbnail
   end
   
   def self.all
-    Dir.glob("#{RAILS_ROOT}/public/data/*.png")
+    Dir.glob("#{RAILS_ROOT}/public/data/*.png")  { |file| thumbnail.new(file) }
   end
 end
