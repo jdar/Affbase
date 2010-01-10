@@ -55,6 +55,7 @@ class AffiliatesController < ApplicationController
 
     respond_to do |format|
       if @affiliate.save
+        @affiliate.generate_thumbnail
         flash[:notice] = 'Affiliate was successfully created.'
         format.html { redirect_to(@affiliate) }
         format.xml  { render :xml => @affiliate, :status => :created, :location => @affiliate }
