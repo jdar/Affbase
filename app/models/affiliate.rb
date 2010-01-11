@@ -29,5 +29,10 @@ class Affiliate < ActiveRecord::Base
     "#{RAILS_ROOT}/public/data/#{id}.png"
   end
   
+  def thumbnail_last_updated
+    File.new(thumbnail_localfile).mtime.to_s(:long)
+    
+  end
+  
 
 end

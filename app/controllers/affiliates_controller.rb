@@ -70,10 +70,8 @@ class AffiliatesController < ApplicationController
   # PUT /affiliates/1.xml
   def update
     @affiliate = Affiliate.find(params[:id])
-
     respond_to do |format|
       if @affiliate.update_attributes(params[:affiliate])
-        @affiliate.generate_thumbnail
         flash[:notice] = 'Affiliate was successfully updated.'
         format.html { redirect_to(affiliates_url) }
         format.xml  { head :ok }
@@ -84,10 +82,23 @@ class AffiliatesController < ApplicationController
     end
   end
 
+  def regenerate_thumb
+    @affiliate = Affiliate.find(params[:id])
+    @affiliate.generate_thumbnail
+
+    respond_to do |format|
+      flash[:notice] = 'Thumbnail successfully regenerated.'
+      format.html { render :action => "edit" }
+      format.xml  { head :ok }
+
+    end
+  end
+
   # DELETE /affiliates/1
   # DELETE /affiliates/1.xml
   def destroy
     @affiliate = Affiliate.find(params[:id])
+    File.delete(@affiliate.thumbnail_localfile)
     @affiliate.destroy
 
     respond_to do |format|
