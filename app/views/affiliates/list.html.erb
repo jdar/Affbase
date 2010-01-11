@@ -1,12 +1,25 @@
 
 <h1>UCP Affiliates</h1>
 
-<ul>
+<table>
+	<thead>
+		<tr>
+			<th>Organization Name</th>
+			<th>Domain Name (IP)</th>
+			<th>Domain URL (IP)</th>
+			<th>Date of Thumbnail</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+	<tbody>
 <% @affiliates.each do |affiliate| %>
-  <li><a href="http://www.<%= affiliate.url %>"><%= affiliate.url %></a> 
-		<%= get_ip(affiliate.url)  %> 
-		<%= link_to 'Edit', edit_affiliate_path(affiliate) %>
-   <%= button_to 'Destroy', affiliate, :confirm => 'Are you sure?', :method => :delete %>
-	</li>
-<% end %>
-</ul>
+		<tr>
+			<td><%= affiliate.org_name %></td>
+			<td><a href="http://www.<%= affiliate.domain %>"><%= affiliate.domain %></a> (<%= get_ip(affiliate.domain)  %>)</td>
+			<td><a href="http://<%= affiliate.url %>"><%= affiliate.url %></a> (<%= get_ip(affiliate.url) %>)</td>
+			<td><%= affiliate.thumbnail_last_updated %></td>
+			<td><%= link_to 'Edit', edit_affiliate_path(affiliate) %>  <%= button_to 'Destroy', affiliate, :confirm => 'Are you sure?', :method => :delete %></td>
+		</tr>
+<% end -%>
+	</tbody>
+</table>
