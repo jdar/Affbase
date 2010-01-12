@@ -15,8 +15,8 @@
 <% @affiliates.each do |affiliate| %>
 		<tr>
 			<td><%= affiliate.org_name %></td>
-			<td><%= autolink(affiliate.domain) %> (<%= get_ip(affiliate.domain)  %>)</td>
-			<td><%= autolink(affiliate.url) %> (<%= get_ip(affiliate.url) %>)</td>
+			<td><%= autolink(affiliate.domain) %> <br /> (<%= get_ip(affiliate.domain)  %>)</td>
+			<td><%= autolink(affiliate.url) %> <br /> (<%= get_ip(affiliate.url) %>)</td>
 			<td><%= affiliate.thumbnail_last_updated %></td>
 			<td><%= link_to 'Edit', edit_affiliate_path(affiliate) %>  <%= button_to 'Destroy', affiliate, :confirm => 'Are you sure?', :method => :delete %></td>
 		</tr>
