@@ -1,9 +1,10 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
-  org_name: MyString
-  url: MyString
-
-two:
-  org_name: MyString
-  url: MyString
+# to do
+# one:
+#   org_name: MyString
+#   domain: MyString.org
+#   url: www.MyString.org
+# 
+# two:
+#   org_name: MyString
+#   url: MyString
