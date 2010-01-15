@@ -39,3 +39,7 @@ Rails::Initializer.run do |config|
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
 end
+
+# Load custom config file for current environment
+raw_config = File.read(RAILS_ROOT + "/config/sensitive.yml") 
+APP_CONFIG = YAML.load(raw_config)[RAILS_ENV]
