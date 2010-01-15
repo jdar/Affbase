@@ -38,6 +38,7 @@ Rails::Initializer.run do |config|
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
+  config.action_controller.relative_url_root = "/code/Affbase" 
 end
 
 # Load custom config file for current environment
@@ -46,4 +47,4 @@ APP_CONFIG = YAML.load(raw_config)[RAILS_ENV]
 
  # Tell Rails we are at a relative offset (patch from http://groups.google.com/group/phusion-passenger/browse_thread/thread/bc1c7e99701ab5db)
  
-config.action_controller.relative_url_root = "/code/Affbase" 
+  
