@@ -43,3 +43,7 @@ end
 # Load custom config file for current environment
 raw_config = File.read(RAILS_ROOT + "/config/sensitive.yml") 
 APP_CONFIG = YAML.load(raw_config)[RAILS_ENV]
+
+ # Tell Rails we are at a relative offset (patch from http://groups.google.com/group/phusion-passenger/browse_thread/thread/bc1c7e99701ab5db)
+ 
+config.action_controller.relative_url_root = "/code/Affbase" 
