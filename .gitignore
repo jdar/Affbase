@@ -7,5 +7,6 @@ db/*.sqlite3
 *.swp
 *~
 .DS_Store
+public/data
 config/database.yml
 config/sensitive.yml

@@ -23,6 +23,7 @@ namespace :deploy do
   task :symlink_shared do
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
     run "ln -nfs #{shared_path}/config/sensitive.yml #{release_path}/config/sensitive.yml"
+    run "ln -nfs #{shared_path}/public/data #{release_path}/public/data"
   end
   
   desc "Sync the public/assets directory."
