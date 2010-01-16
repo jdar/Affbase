@@ -26,12 +26,15 @@ class Affiliate < ActiveRecord::Base
   end
 
   def thumbnail_localfile
-    "#{RAILS_ROOT}/public/data/#{id}.png"
+    "#{RAILS_ROOT}/public/data/#{id}.png" if File.exist?("#{RAILS_ROOT}/public/data/#{id}.png")
   end
   
   def thumbnail_last_updated
-    File.new(thumbnail_localfile).mtime.to_s(:long)
-    
+    if thumbnail_localfile
+      File.new(thumbnail_localfile).mtime.to_s(:long)
+    else
+      "No such file"
+    end
   end
   
 
