@@ -3,6 +3,9 @@ class Affiliate < ActiveRecord::Base
   require 'rubygems'
   require 'rwebthumb'
   include Simplificator::Webthumb
+  self.primary_key = "domain"
+  validates_uniqueness_of :domain
+  validates_presence_of [:org_name, :domain, :url], :message => "can't be blank"
   
   after_create :generate_thumbnail 
   
@@ -13,7 +16,8 @@ class Affiliate < ActiveRecord::Base
   def to_s
     "#{org_name} (#{url})"
   end
-
+  
+  
   def generate_thumbnail
     wt = Webthumb.new(APP_CONFIG['webthumb_api']['key'])
     job = wt.thumbnail(:url => url)
