@@ -55,7 +55,6 @@ class AffiliatesController < ApplicationController
 
     respond_to do |format|
       if @affiliate.save
-        @affiliate.generate_thumbnail
         flash[:notice] = 'Affiliate was successfully created.'
         format.html { redirect_to(@affiliate) }
         format.xml  { render :xml => @affiliate, :status => :created, :location => @affiliate }
@@ -98,7 +97,7 @@ class AffiliatesController < ApplicationController
   # DELETE /affiliates/1.xml
   def destroy
     @affiliate = Affiliate.find(params[:id])
-    File.delete(@affiliate.thumbnail_localfile)
+    File.delete(@affiliate.thumbnail_localfile) unless not @affiliate.thumbnail_localfile
     @affiliate.destroy
 
     respond_to do |format|

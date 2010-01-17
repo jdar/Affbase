@@ -4,7 +4,7 @@ class Affiliate < ActiveRecord::Base
   require 'rwebthumb'
   include Simplificator::Webthumb
   
-  after_update { :generate_thumbnail }
+  after_create :generate_thumbnail 
   
   def inspect
     "organization affiliate: #{org_name}"
@@ -15,7 +15,6 @@ class Affiliate < ActiveRecord::Base
   end
 
   def generate_thumbnail
-    puts "# generate thumbnail"
     wt = Webthumb.new(APP_CONFIG['webthumb_api']['key'])
     job = wt.thumbnail(:url => url)
     job.write_file(job.fetch_when_complete(:medium2), "#{RAILS_ROOT}/public/data/#{id}.png")
@@ -26,7 +25,7 @@ class Affiliate < ActiveRecord::Base
   end
 
   def thumbnail_localfile
-    "#{RAILS_ROOT}/public/data/#{id}.png" if File.exist?("#{RAILS_ROOT}/public/data/#{id}.png")
+    File.exist?("#{RAILS_ROOT}/public/data/#{id}.png") ? "#{RAILS_ROOT}/public/data/#{id}.png" : nil
   end
   
   def thumbnail_last_updated
