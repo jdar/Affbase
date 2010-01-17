@@ -26,3 +26,6 @@ config.action_view.cache_template_loading            = true
 
 # Enable threaded mode
 # config.threadsafe!
+
+ # Tell Rails we are at a relative offset (patch from http://groups.google.com/group/phusion-passenger/browse_thread/thread/bc1c7e99701ab5db)
+  config.action_controller.relative_url_root = "/code/Affbase" 
