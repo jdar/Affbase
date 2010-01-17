@@ -3,13 +3,11 @@
 <% form_for(@affiliate) do |f| %>
   <%= f.error_messages %>
 
-  <%= render :partial => 'form', :locals => { :f => f }   %>
+  <%= render :partial => 'form', :locals => { :f => f, :label_text => "Update"  }   %>
 
-	<p><%= f.label "Thumbnail last generated"  %> <%= @affiliate.thumbnail_last_updated %>  <%= link_to 'Regenerate now', :controller => "affiliates", :action => "regenerate_thumb", :id => @affiliate %></p>
-  <p>
-    <%= f.submit 'Update' %>
-  </p>
+<p><%= f.label "Thumbnail last generated"  %> <%= @affiliate.thumbnail_last_updated %>  <%= link_to 'Regenerate now', :controller => "affiliates", :action => "regenerate_thumb", :id => @affiliate %></p>
 <% end %>
+
  <%= button_to 'Destroy', @affiliate, :confirm => 'Are you sure?', :method => :delete %>
 <%= link_to 'Show', @affiliate %> |
 <%= link_to 'Back', affiliates_path %>
