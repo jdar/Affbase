@@ -88,7 +88,7 @@ class AffiliatesController < ApplicationController
 
     respond_to do |format|
       flash[:notice] = 'Thumbnail successfully regenerated.'
-      format.html { render :action => "edit" }
+      format.html { redirect_to(@affiliate, :action => "edit")  }
       format.xml  { head :ok }
 
     end

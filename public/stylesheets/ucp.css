@@ -6,13 +6,16 @@
     }
     
     div#contentwrap {
-      left: 5%;
-      float:left;
-      display:block;
-      width:90%;
-      
-    }
+	margin: 0 20px;
+}
     
+
+
+p label {
+	font-weight: bold;
+	width: 40%;
+}
+        
     div.label {
       position:relative;
       background-color: #999;
