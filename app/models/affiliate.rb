@@ -22,7 +22,7 @@ class Affiliate < ActiveRecord::Base
   end
   
   def thumbnail_url
-    "#{APP_CONFIG['relative_url_root']}/data/#{id}.png"
+    "/data/#{id}.png"
   end
 
   def thumbnail_localfile
