@@ -3,18 +3,8 @@
 <% form_for(@affiliate) do |f| %>
   <%= f.error_messages %>
 
-  <p>
-    <%= f.label :org_name %><br />
-    <%= f.text_field :org_name %>
-  </p>
-	  <p>
-    <%= f.label :domain %><br />
-    <%= f.text_field :domain %>
-  </p>
-  <p>
-    <%= f.label :url %><br />
-    <%= f.text_field :url %>
-  </p>
+  <%= render :partial => 'form', :locals => { :f => f }   %>
+
 	<p><%= f.label "Thumbnail last generated"  %> <%= @affiliate.thumbnail_last_updated %>  <%= link_to 'Regenerate now', :controller => "affiliates", :action => "regenerate_thumb", :id => @affiliate %></p>
   <p>
     <%= f.submit 'Update' %>
