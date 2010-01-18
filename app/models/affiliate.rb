@@ -3,7 +3,6 @@ class Affiliate < ActiveRecord::Base
   require 'rubygems'
   require 'rwebthumb'
   include Simplificator::Webthumb
-  self.primary_key = "domain"
   validates_uniqueness_of :domain
   validates_presence_of [:org_name, :domain, :url], :message => "can't be blank"
   
@@ -13,9 +12,6 @@ class Affiliate < ActiveRecord::Base
     "organization affiliate: #{org_name}"
   end
   
-  def to_s
-    "#{org_name} (#{url})"
-  end
   
   
   def generate_thumbnail
