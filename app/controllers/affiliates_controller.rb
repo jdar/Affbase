@@ -47,6 +47,18 @@ class AffiliatesController < ApplicationController
   def edit
     @affiliate = Affiliate.find(params[:id])
   end
+  
+  # GET /affiliates/getfeed
+  def getfeed
+    feed = ParseFeed.new("http://ucp.org/sandbox/activeaffiliates.cfm?apikey=#{APP_CONFIG['ucp_api']['key']}")
+    respond_to do |format|
+      flash[:notice] = "#{feed.count} records available "
+      format.html { render :action => "index" }
+    end
+
+    
+  end
+  
 
   # POST /affiliates
   # POST /affiliates.xml
