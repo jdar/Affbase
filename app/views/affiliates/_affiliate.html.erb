@@ -1,9 +1,10 @@
 <div class='site_box' style="background-image:url('<%= affiliate.thumbnail_url %>');">
 	<div class="label transparent_class" >
-	  <%= link_to affiliate.url, affiliate.url %>
+	  <%= link_to affiliate.url, :action => "show", :id => affiliate %>
 		<%= get_ip(affiliate.url) %> <br />
 		<%= link_to 'Edit', edit_affiliate_path(affiliate) %>
    <%= link_to 'Destroy', affiliate, :confirm => 'Are you sure?', :method => :delete %>
+
 	</div>
 	
 </div>
