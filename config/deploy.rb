@@ -2,12 +2,12 @@
 
 
 set :user, 'dclark'
-set :server, 'lifewithoutlimitslabs.org'
+set :server, 'affbase.lifewithoutlimitslabs.org'
 set :application, 'Affbase'
 set :repository,  'git@github.com:LifeWithoutLimits/Affbase.git'
 set :branch, "master"
 set :keep_releases, 5
-server 'www.lifewithoutlimitslabs.org', :app, :web, :db
+server 'affbase.lifewithoutlimitslabs.org', :app, :web, :db
 set :deploy_via, :remote_cache
 set :use_sudo, false
 set :scm, "git"
