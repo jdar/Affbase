@@ -20,6 +20,19 @@ class AffiliatesController < ApplicationController
       format.xml  { render :xml => @affiliates }
     end
   end 
+
+  # GET /affiliates/getfeed
+  def getfeed
+    @feed = ParseFeed.new("http://ucp.org/sandbox/activeaffiliates.cfm?apikey=#{APP_CONFIG['ucp_api']['key']}")
+    respond_to do |format|
+      flash[:notice] = "#{@feed.count} records available "
+      format.html { render :action => "feed" }
+      format.xml  { render :xml => "feed" }
+    end
+
+    
+  end
+  
   
   # GET /affiliates/1
   # GET /affiliates/1.xml
@@ -48,18 +61,6 @@ class AffiliatesController < ApplicationController
     @affiliate = Affiliate.find(params[:id])
   end
   
-  # GET /affiliates/getfeed
-  def getfeed
-    @feed = ParseFeed.new("http://ucp.org/sandbox/activeaffiliates.cfm?apikey=#{APP_CONFIG['ucp_api']['key']}")
-    respond_to do |format|
-      flash[:notice] = "#{@feed.count} records available "
-      format.html { render :action => "feed" }
-    end
-
-    
-  end
-  
-
   # POST /affiliates
   # POST /affiliates.xml
   def create
