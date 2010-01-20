@@ -10,5 +10,8 @@ class ParseFeed
     @feed.size
   end
   
+  def to_s  (org)
+    @feed["#{org}"]
+  end
   
 end

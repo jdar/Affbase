@@ -23,10 +23,11 @@ class AffiliatesController < ApplicationController
 
   # GET /affiliates/getfeed
   def getfeed
+    @affiliates = Affiliate.all
     @feed = ParseFeed.new("http://ucp.org/sandbox/activeaffiliates.cfm?apikey=#{APP_CONFIG['ucp_api']['key']}")
     respond_to do |format|
       flash[:notice] = "#{@feed.count} records available "
-      format.html { render :action => "feed" }
+      format.html { render :action => "feed"  }
       format.xml  { render :xml => "feed" }
     end
 
