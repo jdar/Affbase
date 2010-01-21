@@ -14,6 +14,16 @@ class ParseFeed
     @feed
   end
   
+  def org_name(id)
+    @feed[id]["affiliate_name"]
+  end
+  
+  def org_field(id, field)
+    if [field]
+    @feed[id][field].chomp(";")
+    end 
+  end
+  
   def to_s 
     @feed
   end
