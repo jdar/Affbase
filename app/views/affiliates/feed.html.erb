@@ -1,5 +1,11 @@
 
 <h1>UCP Affiliates</h1>
-<% @affiliates.each do |affiliate| %>
-<p><%= @feed.to_s(affiliate.domain) %></p>
+<% @feed.feed.each do |org, details| %>
+<h1><%= org %></h1>
+<%=  %>
+<ul>
+    <% details.each    do |key, val|  %>
+        <li><%= key %>  - <%= val %></li>
+    <% end -%>
+</ul>
 <% end -%>

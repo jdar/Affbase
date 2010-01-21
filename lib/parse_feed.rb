@@ -3,15 +3,20 @@ class ParseFeed
   require "open-uri"
   
   def initialize(url)
-    @feed = open(url) {|f| YAML.load(f) }
+    open(url) {|f| @feed = YAML.load(f) }
   end
   
   def count
     @feed.size
   end
   
-  def to_s  (org)
-    @feed["#{org}"]
+  def feed
+    @feed
   end
+  
+  def to_s 
+    @feed
+  end
+  
   
 end
