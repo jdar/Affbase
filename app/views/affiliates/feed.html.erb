@@ -1,20 +1,10 @@
 
-<h1>UCP Affiliates</h1>
-
-
+<h1>UCP Affiliates feed data</h1>
 <% @feed.to_s.each do |org, details| %>
 <h1><%= org %></h1>
-<%= @feed.org_field(org, "affiliate_name") %>
-<%= @feed.org_field(org, "affiliate_url") %>
-<%= @feed.org_field(org, "affiliate_city") %>
-<%= @feed.org_field(org, "affiliate_state") %>
-<%= @feed.org_field(org, "affiliate_zip") %>
-<%= @feed.org_field(org, "affiliate_activate") %>
-
-10<ul>
+<ul>
 	<% details.each	do |key, val|  %>
 		<li><%= key %>  - <%= val %></li>
 	<% end -%>
 </ul>
 <% end -%>
-

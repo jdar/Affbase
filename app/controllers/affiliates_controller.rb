@@ -21,20 +21,20 @@ class AffiliatesController < ApplicationController
     end
   end 
 
-  # GET /affiliates/getfeed
-  def getfeed
+  # GET /affiliates/feed
+  def feed
     @feed = ParseFeed.new("http://ucp.org/sandbox/activeaffiliates.cfm?apikey=#{APP_CONFIG['ucp_api']['key']}")
     @feed.to_s.each do |f,details|
-      Affiliate.new do |a|
-        a.org_name = @feed.org_field(f, "affiliate_name")
-        a.domain = @feed.org_field(f, "affiliate_url")
-        a.url = @feed.org_field(f, "affiliate_url")
-        a.save
-      end
+      # Affiliate.new do |a|
+      #   a.org_name = @feed.org_field(f, "affiliate_name")
+      #   a.domain = @feed.org_field(f, "affiliate_url")
+      #   a.url = @feed.org_field(f, "affiliate_url")
+      #   a.save
+      # end
     end
     respond_to do |format|
       flash[:notice] = "#{@feed.count} records available "
-      format.html { redirect_to(affiliates_url) }
+      format.html 
       format.xml  { render :xml => @affiliates }
     end
 
