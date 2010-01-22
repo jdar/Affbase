@@ -33,9 +33,9 @@ class Affiliate < ActiveRecord::Base
   
   def thumbnail_last_updated
     if thumbnail_localfile
-      File.new(thumbnail_localfile).mtime.to_s(:long)
+      File.new(thumbnail_localfile).mtime.to_s(:short)
     else
-      "No such file"
+      nil
     end
   end
   
