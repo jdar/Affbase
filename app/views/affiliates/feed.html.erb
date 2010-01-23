@@ -2,19 +2,11 @@
 <h1>UCP Affiliates</h1>
 
 
-<% @feed.to_s.each do |org, details| %>
-<h1><%= org %></h1>
-<%= @feed.org_field(org, "affiliate_name") %>
-<%= @feed.org_field(org, "affiliate_url") %>
-<%= @feed.org_field(org, "affiliate_city") %>
-<%= @feed.org_field(org, "affiliate_state") %>
-<%= @feed.org_field(org, "affiliate_zip") %>
-<%= @feed.org_field(org, "affiliate_activate") %>
-
-10<ul>
-	<% details.each	do |key, val|  %>
-		<li><%= key %>  - <%= val %></li>
-	<% end -%>
-</ul>
-<% end -%>
-
+<% @feed.each do |org| %>
+<h1><%= org["affiliate_name"] %></h1>
+<%= org["affiliate_name"] %>
+<%= org["affiliate_url"] %>
+<%= org["affiliate_city"] %>
+<%= org["affiliate_state"] %>
+<%= org["affiliate_zip"] %>
+<%= org["affiliate_activate"] %>
