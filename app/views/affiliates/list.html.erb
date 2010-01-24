@@ -17,9 +17,15 @@
 			<td><%= affiliate.org_name %></td>
 			<td><%= autolink(affiliate.domain) %> <br /> (<%= get_ip(affiliate.domain)  %>)</td>
 			<td><%= autolink(affiliate.url) %> <br /> (<%= get_ip(affiliate.url) %>)</td>
-			<td><%= affiliate.thumbnail_last_updated %></td>
-			<td><%= link_to 'Edit', edit_affiliate_path(affiliate) %>  <%= button_to 'Destroy', affiliate, :confirm => 'Are you sure?', :method => :delete %></td>
+			<td><%= affiliate.thumbnail_last_updated %> <br /> <%= link_to 'Regenerate now', :controller => "affiliates", :action => "regenerate_thumb", :id => affiliate %></td>
+			<td><%= link_to 'Edit', edit_affiliate_path(affiliate) %> </td>
 		</tr>
 <% end -%>
 	</tbody>
+
 </table>
+
+<div id="add_affiliate">
+<%= link_to 'New affiliate', new_affiliate_path %>
+<% # link_to 'View external source', :controller => "affiliates", :action => "getfeed"   %>
+</div>

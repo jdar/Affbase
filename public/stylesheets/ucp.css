@@ -1,9 +1,28 @@
-   body {
+/* @override http://localhost:3000/stylesheets/ucp.css?1263759066 */
+
+body {
       background-color: #eee;
       margin: 0px;
       font-family: arial, helvetica, sans-serif;
       font-size:14pt;
     }
+
+#brandingbar ul {
+	display: block;
+	border: 2px solid #000d0c;
+	list-style-type: none;
+}
+
+#brandingbar ul li a {
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#brandingbar ul li {
+	display: inline;
+	padding: 5px 10px;
+}
     
     div#contentwrap {
 	margin: 0 20px;

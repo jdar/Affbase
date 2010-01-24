@@ -21,16 +21,17 @@ class AffiliatesController < ApplicationController
     end
   end 
 
-  # GET /affiliates/getfeed
-  def getfeed
+ # GET /affiliates/getfeed
+  def feed
     @affiliates = Affiliate.all
     require 'yaml'
     require 'open-uri'
     @feed = YAML.load(open("http://ucp.org/sandbox/activeaffiliates.cfm?apikey=#{APP_CONFIG['ucp_api']['key']}"))
+
     respond_to do |format|
       flash[:notice] = "#{@feed.count} records available "
-      format.html { render :action => "feed"  }
-      format.xml  { render :xml => "feed" }
+      format.html 
+      format.xml  { render :xml => @affiliates }
     end
 
     
@@ -103,7 +104,7 @@ class AffiliatesController < ApplicationController
 
     respond_to do |format|
       flash[:notice] = 'Thumbnail successfully regenerated.'
-      format.html { redirect_to(@affiliate, :action => "edit")  }
+      format.html { redirect_to( :action => "list")  }
       format.xml  { head :ok }
 
     end

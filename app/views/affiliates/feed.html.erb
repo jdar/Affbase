@@ -2,11 +2,30 @@
 <h1>UCP Affiliates</h1>
 
 
-<% @feed.each do |org| %>
-<h1><%= org["affiliate_name"] %></h1>
-<%= org["affiliate_name"] %>
-<%= org["affiliate_url"] %>
-<%= org["affiliate_city"] %>
-<%= org["affiliate_state"] %>
-<%= org["affiliate_zip"] %>
-<%= org["affiliate_activate"] %>
+<% @feed.each do |org, a| %>
+	<h1><%= a["affiliate_id"] %> - <%= a["affiliate_name"] %> (<%= a["affiliate_name_abbr"] %>)</h1>
+<p><%= a["affiliate_address1"].to_a %><br />
+  <%= a["affiliate_address2"] %><br />
+  <%= a["affiliate_city"] %>, <%= a["affiliate_state"] %>  <%= a["affiliate_zip"] %>
+</p>
+  <%= a["affiliate_contact_first_name"] %>
+  <%= a["affiliate_contact_last_name"] %>
+  <%= a["affiliate_contact_name"] %>
+  <%= a["affiliate_contact_email"] %>
+    <%= a["affiliate_phone1"] %>
+  <%= a["affiliate_phone2"] %>
+  <%= a["affiliate_tty"] %>
+  <%= a["affiliate_fax"] %>
+  <%= a["affiliate_email"] %>
+  <%= a["affiliate_url"] %>
+  <%= a["affiliate_description"] %>
+  <%= a["affiliate_metric"] %>
+  <%= a["affiliate_activate"] %>
+  <%= a["affiliate_public"] %>
+  <%= a["affiliate_region"] %>
+  <%= a["affiliate_province"] %>
+  <%= a["affiliate_country"] %>
+  <%= a["affiliate_type"] %>
+  <%= a["affiliate_template"] %>
+  <%= a["affiliate_state_ind"] %>
+<% end -%>

@@ -6,7 +6,7 @@ class Affiliate < ActiveRecord::Base
   validates_uniqueness_of :domain
   validates_presence_of [:org_name, :url], :message => "can't be blank"
   
-  after_create :generate_thumbnail 
+  # after_create :generate_thumbnail 
   
   def to_param
     "#{id}-#{url_id}"
@@ -33,9 +33,9 @@ class Affiliate < ActiveRecord::Base
   
   def thumbnail_last_updated
     if thumbnail_localfile
-      File.new(thumbnail_localfile).mtime.to_s(:long)
+      File.new(thumbnail_localfile).mtime.to_s(:short)
     else
-      "No such file"
+      nil
     end
   end
   

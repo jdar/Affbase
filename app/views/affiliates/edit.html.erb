@@ -1,12 +1,12 @@
 <h1>Editing affiliate</h1>
 
-<% form_for(@affiliate) do |f| %>
+<% form_for @affiliate do |f| %>
   <%= f.error_messages %>
 
-  <%= render :partial => 'form', :locals => { :f => f, :label_text => "Update"  }   %>
-
-<p><%= f.label "Thumbnail last generated"  %> <%= @affiliate.thumbnail_last_updated %>  <%= link_to 'Regenerate now', :controller => "affiliates", :action => "regenerate_thumb", :id => @affiliate %></p>
+  <%= render :partial => 'form', :locals => { :f => f, :label_text => "update"  }   %>
 <% end %>
+
+<p>Thumbnail last generated <%= @affiliate.thumbnail_last_updated %>  <%= link_to 'Regenerate now', :controller => "affiliates", :action => "regenerate_thumb", :id => @affiliate %></p>
 
  <%= button_to 'Destroy', @affiliate, :confirm => 'Are you sure?', :method => :delete %>
 <%= link_to 'Show', @affiliate %> |

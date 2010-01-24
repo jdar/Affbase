@@ -12,6 +12,12 @@
 <div id="brandingbar">
   <div id="bbinner">a <a id="sllink" title="Life Without Limits" href="http://ucp.org"/>UCP Life Labs</a> experiment
     </div>
+		<ul>
+			<li><%= link_to 'Home', affiliates_path %></li>
+			<li><%= link_to 'Tabular view', :controller => "affiliates", :action => "list"   %></li>
+			<li><%= link_to 'New affiliate', new_affiliate_path %></li>
+			<li><%= link_to 'View external source', :controller => "affiliates", :action => "feed"   %></li>
+		</ul>
 </div>
 
 <div id="contentwrap">
@@ -19,10 +25,7 @@
 
 <%= yield %>
 </div>
-<div id="add_affiliate">
-<%= link_to 'New affiliate', new_affiliate_path %>
-<%= link_to 'View external source', :controller => "affiliates", :action => "getfeed"   %>
-</div>
+
 
 </body>
 </html>
