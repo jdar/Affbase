@@ -3,29 +3,29 @@
 
 
 <% @feed.each do |org, a| %>
-	<h1><%= a["affiliate_id"] %> - <%= a["affiliate_name"] %> (<%= a["affiliate_name_abbr"] %>)</h1>
-<p><%= a["affiliate_address1"].to_a %><br />
+	<h1><%= a["affiliate_id"].chomp(';') %> - <%= a["affiliate_name"].chomp(';') %> (<%= a["affiliate_name_abbr"].chomp(';') %>)</h1>
+<p><%= a["affiliate_address1"].value.chomp(';') %><br />
   <%= a["affiliate_address2"] %><br />
-  <%= a["affiliate_city"] %>, <%= a["affiliate_state"] %>  <%= a["affiliate_zip"] %>
+  <%= a["affiliate_city"].chomp(';') %>, <%= a["affiliate_state"].chomp(';') %>  <%= a["affiliate_zip"].chomp(';') %>
 </p>
-  <%= a["affiliate_contact_first_name"] %>
-  <%= a["affiliate_contact_last_name"] %>
-  <%= a["affiliate_contact_name"] %>
-  <%= a["affiliate_contact_email"] %>
-    <%= a["affiliate_phone1"] %>
-  <%= a["affiliate_phone2"] %>
-  <%= a["affiliate_tty"] %>
-  <%= a["affiliate_fax"] %>
-  <%= a["affiliate_email"] %>
-  <%= a["affiliate_url"] %>
-  <%= a["affiliate_description"] %>
-  <%= a["affiliate_metric"] %>
-  <%= a["affiliate_activate"] %>
-  <%= a["affiliate_public"] %>
-  <%= a["affiliate_region"] %>
-  <%= a["affiliate_province"] %>
-  <%= a["affiliate_country"] %>
-  <%= a["affiliate_type"] %>
-  <%= a["affiliate_template"] %>
-  <%= a["affiliate_state_ind"] %>
+  <%= a["affiliate_contact_first_name"].chomp(';') %>
+  <%= a["affiliate_contact_last_name"].chomp(';') %>
+  <%= a["affiliate_contact_name"].chomp(';') %>
+  <%= a["affiliate_contact_email"].chomp(';') %>
+    <%= a["affiliate_phone1"].chomp(';') %>
+  <%= a["affiliate_phone2"].chomp(';') %>
+  <%= a["affiliate_tty"].chomp(';') %>
+  <%= a["affiliate_fax"].chomp(';') %>
+  <%= a["affiliate_email"].chomp(';') %>
+  <%= a["affiliate_url"].chomp(';') %>
+  <%= a["affiliate_description"].chomp(';') %>
+  <%= a["affiliate_metric"].chomp(';') %>
+  <%= a["affiliate_activate"].chomp(';') %>
+  <%= a["affiliate_public"].chomp(';') %>
+  <%= a["affiliate_region"].chomp(';') %>
+  <%= a["affiliate_province"].chomp(';') %>
+  <%= a["affiliate_country"].chomp(';') %>
+  <%= a["affiliate_type"].chomp(';') %>
+  <%= a["affiliate_template"].chomp(';') %>
+  <%= a["affiliate_state_ind"].chomp(';') %>
 <% end -%>
