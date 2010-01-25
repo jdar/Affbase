@@ -29,7 +29,7 @@ class AffiliatesController < ApplicationController
     @feed = YAML.load(open("http://ucp.org/sandbox/activeaffiliates.cfm?apikey=#{APP_CONFIG['ucp_api']['key']}"))
 
     respond_to do |format|
-      flash[:notice] = "#{@feed.count} records available "
+      # flash[:notice] = "#{@feed.count} records available "
       format.html 
       format.xml  { render :xml => @affiliates }
     end
