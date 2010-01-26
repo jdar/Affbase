@@ -1,12 +1,28 @@
-<p>
-  <b>Org name:</b>
-  <%=h @affiliate.org_name %>
-</p>
-
+<h1><%=h @affiliate.org_name %> (<%= @affiliate.name_abbr %>) <%= @affiliate.active? %> </h1>
+<p><%= @affiliate.type %></p>
 <p>
   <b>Url:</b>
   <%=h @affiliate.url %>
 </p>
+
+<p><%= @affiliate.address1 %><br />
+  
+  <%= @affiliate.city %>, <%= @affiliate.state %>  <%= @affiliate.zip %>
+</p>
+ <p><%= @affiliate.contact_name %> (<%= @affiliate.contact_email %>)</p>
+    <%= @affiliate.phone1 %>
+  <%= @affiliate.phone2 %>
+  <%= @affiliate.tty %>
+  <%= @affiliate.fax %>
+  <%= @affiliate.email %>
+  <%= @affiliate.description %>
+  <%= @affiliate.metric %>
+  <%= @affiliate.public %>
+  <%= @affiliate.region %>
+  <%= @affiliate.province %>
+  <%= @affiliate.country %>
+  <%= @affiliate.template %>
+  <%= @affiliate.state_ind %>
 
 
 <%= link_to 'Edit', edit_affiliate_path(@affiliate) %> |

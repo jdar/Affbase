@@ -38,5 +38,13 @@ class Affiliate < ActiveRecord::Base
     end
   end
   
+  def active?
+    activate ? "Active" : "Not Active"
+  end
+  
+  def contact_name
+    contact_first_name + " " + contact_last_name
+  end
+  
 
 end

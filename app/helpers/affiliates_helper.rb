@@ -14,8 +14,8 @@ module AffiliatesHelper
   end
   
   
-  def autolink string
-    "<a href=\"http://#{string}\">#{string}</a>"
+  def autolink( url, string=nil)
+    string.nil? ? "<a href=\"http://#{url}\">#{url}</a>" : "<a href=\"http://#{url}\">#{string}</a>"
   end
   
 

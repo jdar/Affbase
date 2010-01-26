@@ -5,20 +5,18 @@
 	<thead>
 		<tr>
 			<th>Organization Name</th>
-			<th>Domain Name (IP)</th>
-			<th>Domain URL (IP)</th>
+			<th>Organization URL </th>
 			<th>Date of Thumbnail</th>
-			<th>Actions</th>
+			<th>Status</th>
 		</tr>
 	</thead>
 	<tbody>
 <% @affiliates.each do |affiliate| %>
 		<tr>
-			<td><%= affiliate.name_abbr %></td>
-			<td><%= autolink(affiliate.domain) %> <br /> (<%= get_ip(affiliate.domain)  %>)</td>
-			<td><%= autolink(affiliate.url) %> <br /> (<%= get_ip(affiliate.url) %>)</td>
+			<td><%= affiliate.name_abbr %> (<%= link_to 'Details', affiliate_path(affiliate) %>)</td>
+			<td><%= autolink(affiliate.url) %></td>
 			<td><%= affiliate.thumbnail_last_updated %> <br /> <%= link_to 'Regenerate now', :controller => "affiliates", :action => "regenerate_thumb", :id => affiliate %></td>
-			<td><%= link_to 'Edit', edit_affiliate_path(affiliate) %> </td>
+			<td><%= affiliate.active? %> </td>
 		</tr>
 <% end -%>
 	</tbody>

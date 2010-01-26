@@ -1,7 +1,6 @@
 <div class='site_box' style="background-image:url('<%= affiliate.thumbnail_url %>');">
 	<div class="label transparent_class" >
-	  <%= autolink(affiliate.domain) %>
-		<%= get_ip(affiliate.domain) %> <br />
+	  <%= autolink(affiliate.url, affiliate.name_abbr) %>
 	
 	</div>
 	
