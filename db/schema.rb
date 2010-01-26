@@ -9,13 +9,39 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100103214726) do
+ActiveRecord::Schema.define(:version => 20100125144714) do
 
   create_table "affiliates", :force => true do |t|
     t.string   "org_name"
     t.string   "url"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "domain"
+    t.integer  "siteid"
+    t.string   "name_abbr"
+    t.string   "contact_first_name"
+    t.string   "contact_last_name"
+    t.string   "contact_email"
+    t.string   "address1"
+    t.string   "address2"
+    t.string   "city"
+    t.string   "state"
+    t.integer  "zip"
+    t.string   "phone1"
+    t.string   "phone2"
+    t.string   "tty"
+    t.string   "fax"
+    t.string   "email"
+    t.text     "description"
+    t.string   "metric"
+    t.boolean  "activate"
+    t.boolean  "public"
+    t.string   "region"
+    t.string   "province"
+    t.string   "country"
+    t.string   "aff_type"
+    t.integer  "template"
+    t.integer  "state_ind"
   end
 
 end

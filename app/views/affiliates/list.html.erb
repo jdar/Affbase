@@ -14,7 +14,7 @@
 	<tbody>
 <% @affiliates.each do |affiliate| %>
 		<tr>
-			<td><%= affiliate.org_name %></td>
+			<td><%= affiliate.name_abbr %></td>
 			<td><%= autolink(affiliate.domain) %> <br /> (<%= get_ip(affiliate.domain)  %>)</td>
 			<td><%= autolink(affiliate.url) %> <br /> (<%= get_ip(affiliate.url) %>)</td>
 			<td><%= affiliate.thumbnail_last_updated %> <br /> <%= link_to 'Regenerate now', :controller => "affiliates", :action => "regenerate_thumb", :id => affiliate %></td>

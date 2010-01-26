@@ -6,7 +6,6 @@ class Affiliate < ActiveRecord::Base
   validates_uniqueness_of :domain
   validates_presence_of [:org_name, :url], :message => "can't be blank"
   
-  # after_create :generate_thumbnail 
   
   def to_param
     "#{id}-#{url_id}"
