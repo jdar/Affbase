@@ -80,6 +80,18 @@ class AffiliatesController < ApplicationController
     end 
   end
 
+  # GET /affiliates/state/fl
+  # GET /affiliates/state/fl.xml
+  def find_by_state
+    @affiliates = Affiliate.find_all_by_state(params[:id])
+    @filtered_by = "in #{params[:id]}"
+    
+    respond_to do |format|
+      format.html { render :action => "list"}  # list.html.erb
+      format.xml  { render :xml => @affiliates }
+    end 
+  end
+
   # GET /affiliates/new
   # GET /affiliates/new.xml
   def new
