@@ -23,7 +23,30 @@
   <%= @affiliate.country %>
   <%= @affiliate.template %>
   <%= @affiliate.state_ind %>
+<h2>Events</h2>
+<% render :partial => @affiliate.events %>
 
+<% form_for [@affiliate, Event.new] do |f| %>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :url %><br />
+    <%= f.text_field :url %>
+  </p>
+  <p>
+    <%= f.label :date %><br />
+    <%= f.datetime_select :date %>
+  </p>
+  <p>
+    <%= f.label :location %><br />
+    <%= f.text_field :location %>
+  </p>
+  <p>
+    <%= f.submit 'Add Event' %>
+  </p>
+<% end %>
 
 <%= link_to 'Edit', edit_affiliate_path(@affiliate) %> |
 <%= link_to 'Back', affiliates_path %>

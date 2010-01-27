@@ -5,7 +5,7 @@ class Affiliate < ActiveRecord::Base
   include Simplificator::Webthumb
   validates_uniqueness_of :domain
   validates_presence_of [:org_name, :url], :message => "can't be blank"
-  
+  has_many :events
   
   def to_param
     "#{id}-#{url_id}"
