@@ -23,8 +23,8 @@
   <%= @affiliate.country %>
   <%= @affiliate.template %>
   <%= @affiliate.state_ind %>
-<h2>Events</h2>
-<% render :partial => @affiliate.events %>
+<h2>Events (<%= @affiliate.events.count %>)</h2>
+<%= render :partial => @affiliate.events %>
 
 <% form_for [@affiliate, Event.new] do |f| %>
   <p>
