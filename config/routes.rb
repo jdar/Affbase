@@ -1,4 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :events
   map.connect 'affiliates/list', :controller => "affiliates", :action => "list"  
   map.connect 'affiliates/regenerate_thumb/:id', :controller => "affiliates", :action => "regenerate_thumb"
   map.connect 'affiliates/state/:id.:format', :controller => "affiliates", :action => "find_by_state"

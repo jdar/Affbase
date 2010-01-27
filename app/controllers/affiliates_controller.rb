@@ -88,7 +88,7 @@ class AffiliatesController < ApplicationController
     
     respond_to do |format|
       format.html { render :action => "list"}  # list.html.erb
-      format.xml  { render :xml => @affiliates }
+      format.xml  { render :action => "list", :xml => @affiliates }
     end 
   end
 
