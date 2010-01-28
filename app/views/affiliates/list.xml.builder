@@ -1,6 +1,6 @@
 xml.instruct! :xml, :version => "1.0", :encoding => "UTF-8"
-xml.affiliates(:type => "array") { 
-  @affiliates.each do |a|
+xml.affiliates do
+@affiliates.each do |a|
     xml.affiliate { 
       xml.org_name          a.org_name
       xml.url               a.url
@@ -14,15 +14,16 @@ xml.affiliates(:type => "array") {
       xml.fax               a.fax
       xml.email             a.email
       xml.description       a.description
-      a.events.each do |event|
-        xml.event {
-          xml.name     event.name
-          xml.url      event.url
-          xml.date     event.date
-          xml.location event.location
-        }
+      xml.events do
+        a.events.each do |event|
+          xml.event {
+            xml.name     event.name
+            xml.url      event.url
+            xml.date     event.date
+            xml.location event.location
+          }
+        end
       end
     }
   end
-
-}
+end
