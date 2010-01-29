@@ -1,4 +1,5 @@
 <h1><%=h @affiliate.org_name %> (<%= @affiliate.name_abbr %>) <%= @affiliate.active? %> </h1>
+<%= render :partial => @affiliate %>
 <p><%= @affiliate.type %></p>
 <p>
   <b>Url:</b>
@@ -10,22 +11,26 @@
   <%= @affiliate.city %>, <%= @affiliate.state %>  <%= @affiliate.zip %>
 </p>
  <p><%= @affiliate.contact_name %> (<%= @affiliate.contact_email %>)</p>
-    <%= @affiliate.phone1 %>
-  <%= @affiliate.phone2 %>
-  <%= @affiliate.tty %>
-  <%= @affiliate.fax %>
-  <%= @affiliate.email %>
-  <%= @affiliate.description %>
-  <%= @affiliate.metric %>
-  <%= @affiliate.public %>
-  <%= @affiliate.region %>
-  <%= @affiliate.province %>
-  <%= @affiliate.country %>
-  <%= @affiliate.template %>
-  <%= @affiliate.state_ind %>
+  <ul>
+  	<li>phone1:              <%= @affiliate.phone1 %>     </li>
+  	<li>phone2:              <%= @affiliate.phone2 %>     </li>
+  	<li>tty:                 <%= @affiliate.tty %>        </li>
+  	<li>fax:                 <%= @affiliate.fax %>        </li>
+  	<li>email:               <%= @affiliate.email %>      </li>
+  	<li>description:         <%= @affiliate.description %></li>
+  	<li>metric:              <%= @affiliate.metric %>     </li>
+  	<li>public:              <%= @affiliate.public %>     </li>
+  	<li>region:              <%= @affiliate.region %>     </li>
+  	<li>province:            <%= @affiliate.province %>   </li>
+  	<li>country:             <%= @affiliate.country %>    </li>
+  	<li>template:            <%= @affiliate.template %>   </li>
+		<li>state_ind:           <%= @affiliate.state_ind %></li>
+  </ul> 
+    
+<div id="events">
 <h2>Events (<%= @affiliate.events.count %>)</h2>
 <%= render :partial => @affiliate.events %>
-
+</div>
 <% form_for [@affiliate, Event.new] do |f| %>
   <p>
     <%= f.label :name %><br />
