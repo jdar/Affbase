@@ -7,6 +7,7 @@ describe "/affiliates/new.html.erb" do
     assigns[:affiliate] = stub_model(Affiliate,
       :new_record? => true,
       :org_name => "value for org_name",
+      :domain => "value_for_domain.tld", 
       :url => "value for url"
     )
   end
