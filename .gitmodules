@@ -7,3 +7,6 @@
 [submodule "vendor/plugins/webthumb"]
 	path = vendor/plugins/webthumb
 	url = git://github.com/simplificator/rwebthumb.git
+[submodule "vendor/plugins/geokit"]
+	path = vendor/plugins/geokit
+	url = git://github.com/andre/geokit-rails.git

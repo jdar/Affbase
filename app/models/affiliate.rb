@@ -5,6 +5,8 @@ class Affiliate < ActiveRecord::Base
   include Simplificator::Webthumb
   validates_uniqueness_of :domain
   validates_presence_of [:org_name, :url], :message => "can't be blank"
+  validates_presence_of :lat, :long
+  acts_as_mappable :auto_geocode => true 
   has_many :events
   
   def to_param
