@@ -10,3 +10,6 @@
 [submodule "vendor/plugins/geokit"]
 	path = vendor/plugins/geokit
 	url = git://github.com/andre/geokit-rails.git
+[submodule "vendor/plugins/ym4rgm"]
+	path = vendor/plugins/ym4rgm
+	url = git://github.com/queso/ym4r-gm.git
