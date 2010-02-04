@@ -56,12 +56,8 @@ class AffiliatesController < ApplicationController
   # GET /affiliates/state/fl
   # GET /affiliates/state/fl.xml
   def find_by_abbr
-    @affiliate = Affiliate.find_by_name_abbr(params[affiliate[:name_abbr]])
-    
-    respond_to do |format|
-      format.html { render :action => "show"}  # list.html.erb
-      format.xml  { render :action => "list", :xml => @affiliate }
-    end 
+    @affiliate = Affiliate.find_by_name_abbr(params[:affiliate][:name_abbr])
+   redirect_to(@affiliate)
   end
 
  # GET /affiliates/state/fl
