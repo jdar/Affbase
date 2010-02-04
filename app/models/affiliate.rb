@@ -6,7 +6,7 @@ class Affiliate < ActiveRecord::Base
   validates_uniqueness_of :domain
   validates_presence_of [:org_name, :url], :message => "can't be blank"
   # validates_presence_of :lat, :long
-  acts_as_mappable :auto_geocode => true 
+  # acts_as_mappable :auto_geocode => true 
   has_many :events
   
   def to_param
@@ -14,7 +14,7 @@ class Affiliate < ActiveRecord::Base
   end
   
   def url_id
-    domain.chomp.gsub(".","")
+    domain.nil? ? "missing" : domain.chomp.gsub(".","")
   end
   
   
@@ -67,11 +67,11 @@ class Affiliate < ActiveRecord::Base
     require 'open-uri'
     @feed = YAML.load(open("http://ucp.org/sandbox/activeaffiliates.cfm?apikey=#{APP_CONFIG['ucp_api']['key']}"))
     @feed.each do |f,org|
-     a = Affiliate.find_by_org_name(org["affiliate_name"].chomp(';')) 
-        unless a.nil?
+      unless org["affiliate_name"].nil?
+     a = Affiliate.find_or_create_by_org_name(org["affiliate_name"].chomp(';')) 
           a.siteid = org["affiliate_id"].chomp(';') 
           a.name_abbr = org["affiliate_name_abbr"].chomp(';')
-          a.address1 = org["affiliate_address1"].value.chomp(';')
+          a.address1 = org["affiliate_address1"].value.chomp(';') unless org["affiliate_address1"].nil?
           a.city = org["affiliate_city"].chomp(';')
           a.state = org["affiliate_state"].chomp(';')  
           a.zip = org["affiliate_zip"].chomp(';')
@@ -95,7 +95,6 @@ class Affiliate < ActiveRecord::Base
           a.state_ind   = org["affiliate_state_ind"].chomp(';')
           a.geocode_address
           a.save
-        end
     end
   end
 
