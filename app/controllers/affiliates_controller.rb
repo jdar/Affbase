@@ -1,4 +1,6 @@
 class AffiliatesController < ApplicationController
+  auto_complete_for :affiliate, :name_abbr
+  
   # GET /affiliates
   # GET /affiliates.xml
   def index
@@ -53,16 +55,27 @@ class AffiliatesController < ApplicationController
 
   # GET /affiliates/state/fl
   # GET /affiliates/state/fl.xml
+  def find_by_abbr
+    @affiliate = Affiliate.find_by_name_abbr(params[affiliate[:name_abbr]])
+    
+    respond_to do |format|
+      format.html { render :action => "show"}  # list.html.erb
+      format.xml  { render :action => "list", :xml => @affiliate }
+    end 
+  end
+
+ # GET /affiliates/state/fl
+  # GET /affiliates/state/fl.xml
   def find_by_state
-    @affiliates = Affiliate.find_all_by_state(params[:id])
-    @filtered_by = "in #{params[:id]}"
+    @affiliates = Affiliate.find_all_by_state(params[:state])
+    @filtered_by = "in #{params[:state]}"
     
     respond_to do |format|
       format.html { render :action => "list"}  # list.html.erb
       format.xml  { render :action => "list", :xml => @affiliates }
     end 
   end
-
+  
   # GET /affiliates/new
   # GET /affiliates/new.xml
   def new

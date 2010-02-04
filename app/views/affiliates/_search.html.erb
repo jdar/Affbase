@@ -1,0 +1,11 @@
+<% form_tag find_by_state_path, :method => "get", :id => "search_by_state" do %>
+    <%= label_tag(:state, "Search by state:") %>
+  <%= text_field_tag(:state) %>
+  <%= submit_tag("Search") %>
+<% end -%>
+
+<% form_tag find_by_name_path, :method => "get", :id => "search_by_name" do %>
+    <%= label_tag(:name_abbr, "Search by name:") %>
+  <%= text_field_with_auto_complete :affiliate, "name_abbr" %>
+  <%= submit_tag("Search") %>
+<% end -%>

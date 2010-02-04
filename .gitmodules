@@ -13,3 +13,6 @@
 [submodule "vendor/plugins/ym4rgm"]
 	path = vendor/plugins/ym4rgm
 	url = git://github.com/queso/ym4r-gm.git
+[submodule "vendor/plugins/auto_complete"]
+	path = vendor/plugins/auto_complete
+	url = git://github.com/rails/auto_complete.git
