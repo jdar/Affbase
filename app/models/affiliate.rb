@@ -95,6 +95,7 @@ class Affiliate < ActiveRecord::Base
           a.state_ind   = org["affiliate_state_ind"].chomp(';')
           a.geocode_address
           a.save
+        end
     end
   end
 
