@@ -18,5 +18,12 @@ module AffiliatesHelper
     string.nil? ? "<a href=\"http://#{url}\">#{url}</a>" : "<a href=\"http://#{url}\">#{string}</a>"
   end
   
+  def generate_gmap_info_window(org)
+    “#{org.org_name}
+    #{org.address1}
+    #{org.city}, #{org.state} #{org.ziorg.to_s}”
+  end
+  
+  
 
 end

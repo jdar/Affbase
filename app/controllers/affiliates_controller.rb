@@ -20,8 +20,10 @@ class AffiliatesController < ApplicationController
     @map.control_init(:large_map => true,:map_type => false)
     @map.set_map_type_init(GMapType::G_NORMAL_MAP)
     @map.center_zoom_init([40.57, -97.56],4)
-    # @map.overlay_init(GMarker.new([22,38],:title => "Title", :info_window => "This description<br/> can have <b>HTML</b> in it!"))
-        
+    @affiliates.each do |a|
+      @map.overlay_init(GMarker.new([a.lat, a.long],:title => a.name_abbr, :info_window => "#{a.org_name} <br /> #{a.address1}<br /> #{a.city}, #{a.state} #{a.zip}"))
+    end
+            
     respond_to do |format|
       format.html # list.html.erb
       format.xml  { render :xml => @affiliates }

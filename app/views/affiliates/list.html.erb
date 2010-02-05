@@ -1,5 +1,7 @@
+<% if @map   %>
 <%= @map.to_html %>
 <%= @map.div(:width => 800, :height => 400) %>
+<% end -%>
 
 <h1>UCP Affiliates <%= @filtered_by %></h1>
 <table>
