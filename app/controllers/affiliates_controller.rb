@@ -16,11 +16,12 @@ class AffiliatesController < ApplicationController
   # GET /affiliates/list.xml
   def list
     @affiliates = Affiliate.all
-    #     @map = GMap.new("map_div")
-    # @map.control_init(:large_map => true,:map_type => true)
-    # @map.center_zoom_init([75.5,-42.56],9)
-    # @map.overlay_init(GMarker.new([75.6,-42.467],:title => "Hello", :info_window => "Info! Info!"))
-    #     
+    @map = GMap.new("map_div")
+    @map.control_init(:large_map => true,:map_type => false)
+    @map.set_map_type_init(GMapType::G_NORMAL_MAP)
+    @map.center_zoom_init([40.57, -97.56],4)
+    # @map.overlay_init(GMarker.new([22,38],:title => "Title", :info_window => "This description<br/> can have <b>HTML</b> in it!"))
+        
     respond_to do |format|
       format.html # list.html.erb
       format.xml  { render :xml => @affiliates }

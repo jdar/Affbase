@@ -6,7 +6,11 @@ class Affiliate < ActiveRecord::Base
   validates_uniqueness_of :domain
   validates_presence_of [:org_name, :url], :message => "can't be blank"
   # validates_presence_of :lat, :long
-  # acts_as_mappable :auto_geocode => true 
+  acts_as_mappable :default_units => :miles, 
+                   :default_formula => :sphere, 
+                   :distance_field_name => :distance,
+                   :lat_column_name => :lat,
+                   :lng_column_name => :long
   has_many :events
   
   def to_param
