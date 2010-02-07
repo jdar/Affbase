@@ -16,14 +16,7 @@ class AffiliatesController < ApplicationController
   # GET /affiliates/list.xml
   def list
     @affiliates = Affiliate.all
-    @map = GMap.new("map_div")
-    @map.control_init(:large_map => true,:map_type => false)
-    @map.set_map_type_init(GMapType::G_NORMAL_MAP)
-    @map.center_zoom_init([40.57, -97.56],4)
-    @affiliates.each do |a|
-      @map.overlay_init(GMarker.new([a.lat, a.long],:title => a.name_abbr, :info_window => "#{a.org_name} <br /> #{a.address1}<br /> #{a.city}, #{a.state} #{a.zip}"))
-    end
-            
+          
     respond_to do |format|
       format.html # list.html.erb
       format.xml  { render :xml => @affiliates }

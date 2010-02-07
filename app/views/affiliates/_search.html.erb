@@ -1,6 +1,6 @@
 <% form_tag find_by_state_path, :method => "get", :id => "search_by_state" do %>
     <%= label_tag :state, "Search by state:" %>
-  <%= text_field_tag :state, params[:state] %>
+  <%= text_field_tag :state, params[:state]  %>
   <%= submit_tag "Search", :name => nil  %>
 <% end -%>
 
