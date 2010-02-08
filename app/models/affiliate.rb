@@ -103,5 +103,15 @@ class Affiliate < ActiveRecord::Base
         end
     end
   end
+  
+  # Generate all thumbnailsin small & medium size
+  def self.generate_thumbnails
+    wt = Webthumb.new(APP_CONFIG['webthumb_api']['key'])
+    Affiliate.all.each do |a|  
+      job = wt.thumbnail(:url => a.url)
+      job.write_file(job.fetch_when_complete(:medium2), "#{RAILS_ROOT}/public/data/#{a.url_id}.png")
+      job.write_file(job.fetch_when_complete(:small), "#{RAILS_ROOT}/public/data/#{a.url_id}_small.png")
+    end
+  end
 
 end
