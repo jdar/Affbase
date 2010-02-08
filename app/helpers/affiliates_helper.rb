@@ -18,10 +18,8 @@ module AffiliatesHelper
     string.nil? ? "<a href=\"http://#{url}\">#{url}</a>" : "<a href=\"http://#{url}\">#{string}</a>"
   end
   
-  def generate_gmap_info_window(org)
-    “#{org.org_name}
-    #{org.address1}
-    #{org.city}, #{org.state} #{org.ziorg.to_s}”
+  def generate_gmap_info_window(a)
+    "#{a.org_name} <br /> #{a.address1}<br /> #{a.city}, #{a.state} #{a.zip}<br />" + image_tag(a.thumbnail_url("_small"))
   end
   
   def make_map affiliates
@@ -30,9 +28,8 @@ module AffiliatesHelper
     @map.set_map_type_init(GMapType::G_NORMAL_MAP)
     @map.center_zoom_init([40.57, -97.56],4)
     affiliates.each do |a|
-      @map.overlay_init(GMarker.new([a.lat, a.long],:title => a.name_abbr, :info_window => "#{a.org_name} <br /> #{a.address1}<br /> #{a.city}, #{a.state} #{a.zip}"))
+      @map.overlay_init(GMarker.new([a.lat, a.long],:title => a.name_abbr, :info_window => generate_gmap_info_window(a)))
     end
-    @map.center_zoom_on_points_init
     @map.to_html
   end
   

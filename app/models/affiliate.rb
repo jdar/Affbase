@@ -26,10 +26,11 @@ class Affiliate < ActiveRecord::Base
     wt = Webthumb.new(APP_CONFIG['webthumb_api']['key'])
     job = wt.thumbnail(:url => url)
     job.write_file(job.fetch_when_complete(:medium2), "#{RAILS_ROOT}/public/data/#{url_id}.png")
+    job.write_file(job.fetch_when_complete(:small), "#{RAILS_ROOT}/public/data/#{url_id}_small.png")
   end
   
-  def thumbnail_url
-    "/data/#{url_id}.png"
+  def thumbnail_url size = ""
+    "/data/#{url_id}#{size}.png"
   end
 
   def thumbnail_localfile
