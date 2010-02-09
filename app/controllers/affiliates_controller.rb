@@ -37,8 +37,14 @@ class AffiliatesController < ApplicationController
   # GET /affiliates/state/fl
   # GET /affiliates/state/fl.xml
   def find_by_abbr
-    @affiliate = Affiliate.find_by_name_abbr(params[:affiliate][:name_abbr])
-   redirect_to(@affiliate)
+    @affiliate = Affiliate.find(:first, :conditions => ["name_abbr LIKE ?", "%#{params[:affiliate][:name_abbr]}%"])
+    
+    if @affiliate
+      redirect_to(@affiliate)
+    else
+      flash[:notice] = "No matches for " + params[:affiliate][:name_abbr]
+      redirect_to(:action => :list )
+    end
   end
 
  # GET /affiliates/state/fl
