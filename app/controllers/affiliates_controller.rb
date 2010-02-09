@@ -37,7 +37,7 @@ class AffiliatesController < ApplicationController
   # GET /affiliates/state/fl
   # GET /affiliates/state/fl.xml
   def find_by_abbr
-    @affiliate = Affiliate.find(:first, :conditions => ["name_abbr LIKE ?", "%#{params[:affiliate][:name_abbr]}%"])
+    @affiliate = Affiliate.search(params[:affiliate][:name_abbr])
     
     if @affiliate
       redirect_to(@affiliate)
@@ -52,6 +52,18 @@ class AffiliatesController < ApplicationController
   def find_by_state
     @affiliates = Affiliate.find_all_by_state(params[:state])
     @filtered_by = "in #{params[:state]}"
+    
+    respond_to do |format|
+      format.html { render :action => "list"}  # list.html.erb
+      format.xml  { render :action => "list", :xml => @affiliates }
+    end 
+  end
+ 
+  # GET /affiliates/region/fl
+  # GET /affiliates/region/fl.xml
+  def find_by_region
+    @affiliates = Affiliate.find_all_by_region(params[:region])
+    @filtered_by = "in #{params[:region]}"
     
     respond_to do |format|
       format.html { render :action => "list"}  # list.html.erb

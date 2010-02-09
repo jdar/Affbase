@@ -113,5 +113,17 @@ class Affiliate < ActiveRecord::Base
       job.write_file(job.fetch_when_complete(:small), "#{RAILS_ROOT}/public/data/#{a.url_id}_small.png")
     end
   end
+  
+  def self.search(string)
+    find(:first, :conditions => ["name_abbr LIKE ?", string])
+  end
+  
+  def self.get_states
+    find(:all, :select => 'distinct(state)', :order => 'state')
+  end
+  
+  def self.get_regions
+    find(:all, :select => 'distinct(region)', :order => 'region')
+  end
 
 end
