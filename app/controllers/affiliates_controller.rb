@@ -22,21 +22,6 @@ class AffiliatesController < ApplicationController
       format.xml  { render :xml => @affiliates }
     end
   end 
-
- # GET /affiliates/getfeed
-  def feed
-    @affiliates = Affiliate.all
-   
-    
-    respond_to do |format|
-      # flash[:notice] = "#{@feed.count} records available "
-      format.html 
-      format.xml  { render :xml => @affiliates }
-    end
-
-    
-  end
-  
   
   # GET /affiliates/1
   # GET /affiliates/1.xml
