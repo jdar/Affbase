@@ -43,8 +43,8 @@ Rails::Initializer.run do |config|
 end
 
 # Load custom config file for current environment
-#raw_config = File.read(RAILS_ROOT + "/config/sensitive.yml") 
-#APP_CONFIG = YAML.load(raw_config)[RAILS_ENV]
+raw_config = File.read(RAILS_ROOT + "/config/sensitive.yml") 
+APP_CONFIG = YAML.load(raw_config)[RAILS_ENV]
 
  
   
