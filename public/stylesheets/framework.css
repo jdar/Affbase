@@ -1,0 +1,874 @@
+/* USE PERCENTAGES FOR ALL FONT SIZES TO RETAIN THE ABILITY OF THE USER
+TO CHANGE THE FONT SIZE FOR BEST READABILITY FOR THEIR EYES AND MONITOR */
+
+body{
+ border:0;
+ margin:0;
+ padding:0;
+ font-family: verdana, arial, sans-serif;
+ color: #333;
+ text-align:center;
+ background:#fff;
+ font-size: small;
+ }
+
+
+/*----------------- list styles ------------------*/
+
+/* these lists are formatted to use a background-image for the bullets,
+since the default browser bullets are big and ugly.  
+Comment out list-style:none and the background image below, as well as 
+the ul and li specific styles to use the default browser bullets */
+
+dl li, dl li li, dl p {
+font-size: 100%;
+}
+
+dt {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+dl{
+	font-size:100%; /* **** */
+}
+
+dd{
+	padding:0;
+	margin:0 0 .8em 0;
+}
+	
+/* any ul after a ul needs a bigger top margin */
+ul + ul{
+  margin-top:1.2em;
+}
+
+/* any p inside an li needs a smaller top margin */
+li > p {
+	margin-top: 0.2em;
+	}
+
+	
+/*----------------- end list styles ------------------*/
+
+
+p{
+font-size:90%; /* if you change this, you have to change it wherever "****" appears to make everything appear the same size */
+line-height: 1.4em;
+margin: .2em 0em .8em 0em;
+}
+
+
+/*----------------- header styles ------------------*/
+
+h1{
+font-size:150%;
+margin: 0 0 .5em 0;
+padding:0;
+
+}
+
+h2{
+font-size:130%;
+margin: .2em 0em .2em 0em;
+font-weight: normal;
+}
+
+h3{
+font-size:110%; 
+margin: .2em 0em .2em 0em;
+}
+
+h4{
+font-size:100%; 
+margin: .2em 0em .2em 0em;
+
+}
+
+h5{
+font-size:85%; /* **** */
+margin: .2em 0em .2em 0em;
+
+}
+
+h6{
+font-size:85%; /* **** */
+margin: .2em 0em .2em 0em;
+}
+
+/*----------------- end header styles ------------------*/
+
+/*----------------- table styles ------------------*/
+
+/*this is for win ie5.x and Opera, as it will not cascade the em sizing
+into the table.  Adding this rule defines the table as the containing block, 
+and the sizing will then decend correctly.*/
+
+table{
+font-size:100%;
+}
+
+
+/*----------------- end table ------------------*/
+
+
+/*----------------- links ------------------*/
+
+a:link {
+ color:#35862A;
+ text-decoration:underline;
+}
+
+a:visited {
+	color:#333;
+}
+
+a:hover, a:active, a:focus{
+color:#e09702;
+text-decoration:underline;
+}
+
+img, a:link img, a:visited img, a:hover img, a:active img, a:focus img {
+	border: 0;
+	text-decoration:none;	
+}
+
+/*----------------- end links ------------------*/
+
+
+pre { /*moz 1.0/1.1/1.2.1, net 7.0/7.01 make this way too small, but i'm not going to go larger because monospace tends to run you into overflow pretty quick. prior moz and net are okay.*/
+	font-family: monospace;
+	font-size: 100%;
+	}
+strong, b {
+	font-weight: bold;
+	}
+
+.right{
+ text-align: right;
+ }
+
+.link{
+ text-align: right;
+ }
+ 
+.clearer {
+	clear: both;
+}
+
+.hide, .print{
+display:none;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+input.text {
+	border: 1px solid black;
+}
+
+fieldset {
+	border: none;
+	margin:0;
+	padding:0;
+}
+
+/*framework*/
+
+.dspPrintOnly {
+	display: none;
+}
+
+#wrapper{ /* for centering purposes */
+background:#fff;
+/* width:760px; */
+width: 960px;
+text-align:left;
+margin:0 auto;
+position: relative;
+}
+
+#header { /* the very top with the logo and search boxes */
+	position: relative;
+	width: 960px;
+	height: 96px;
+}
+
+#research_header { /* the very top with the logo and search boxes */
+	position: relative;
+	width: 760px;
+	height: 117px;
+}
+
+#logo { /* duh */
+	width: 235px;
+}
+
+#search { /* wraps around both of the search types below */
+	position: absolute;
+	left: 765px;
+	bottom: 3px;
+}
+
+#localsearch {
+	float: right;
+	width:200px;
+	text-transform: uppercase;
+	color: #00728F;
+	
+}
+
+#localsearch img {
+	margin: 0 4px 0 0;
+}
+
+#websearch {
+	width:155px;
+}
+
+#masthead /* the green area with the picture at the top of the page */
+{
+	padding: 0 0 0 0;
+	height: 170px;
+	background-image: url('/stylesheets/images/masthead_stripes_bkgd.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #35862a;
+	border-top: 3px solid #003A52;
+	border-bottom: 3px solid #003A52;
+
+}
+
+#masthead h1, #masthead p {
+	color: #fff;
+	padding: 4px 25px 0 0;
+}
+
+#masthead h1 {
+	font-size:140%;
+	font-weight: normal;
+	
+}
+
+#masthead img {
+	position: relative;
+	display: block;
+	float: left;
+	width: 575px;
+	height: 170px;
+	margin: 0;
+	padding: 0 12px 0 0px;
+	overflow: hidden;
+	
+}
+
+#masthead_donate {
+	position: absolute;
+	top: 126px;
+	left: 434px;
+	display: block;
+	width: 134px;
+	height: 39px;
+	background-image: url("/stylesheets/images/btn_support_orange.png");
+}
+
+#masthead_donate a {
+	positin: relative;
+	display: block;
+	width: 129px;
+	height: 33px;
+	padding: 0;
+	margin: 0;
+}
+
+#masthead p {
+	line-height: 1.4em;
+	font-size: 90%;
+}
+
+#masthead a {
+	color: #ffb00f;
+	text-decoration: none;
+}
+
+#masttext {
+	position: relative;
+	float: left;
+}
+
+
+/* to change the image at the top of each page, add in a new class like below */
+/*
+body.home #masthead
+{
+	padding: 0 0 0 330px;
+	height: 175px;
+	background: #35862a url(/images/photos/masthead_home.jpg) 0 0 no-repeat;
+}
+
+body.Medicaid_home #masthead
+{
+	padding: 0 0 0 330px;
+	height: 175px;
+	background: #35862a url(/images/medicaid/ACFIheader.jpg) 0 0 no-repeat;
+}
+
+body.channel3 #masthead {
+	background-image: url(/images/photos/masthead_3.jpg);
+}
+
+
+
+#mainwrapper { /* this wraps around the entire main area right of the sidenav */
+	position: relative;
+	display: block;
+	float: left;
+}
+
+#contenthead { /* the orange stripe at the top of the content area */
+	background: #e09702;
+	padding: 5px 15px 4px 15px;
+	font-size: 85%;
+	text-decoration: none;
+}
+
+#contenthead a {
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#contenthead .date {
+	float: left;
+}
+
+#contenthead .yourucp {
+	float: right;
+}
+
+#contenthead .yourucp a:hover, #contenthead .yourucp a:link, #contenthead .yourucp a:active {
+	text-decoration: underline;
+}
+
+#ace { /* this is the "Affiliate Center Entrance" bit */
+	font-size: 75%;
+	text-align:right;
+	padding: 5px 15px 15px 15px;
+}
+
+#ace a {
+	color: #333;
+}
+
+#content { /* this wraps around the actual content and the callouts */
+	float: left;
+	width: 724px;
+	border: 0px solid red;
+}
+
+#contentwrap { /* this wraps JUST the content */
+	float: left;
+	/*width: 398px;*/
+	padding: 3px 15px 3px 15px;
+}
+
+#contentwrap_med { /* this wraps JUST the content */
+	float: center;
+	/*width: 500px;*/
+	padding: 3px 15px 3px 30px;
+}
+
+#contentwrap1col { /* this wraps JUST the content */
+	float: left;
+	/*width: 560px;*/
+	padding: 3px 15px 3px 15px;
+}
+
+#contentwrap2col { /* this wraps JUST the content */
+	float: left;
+	/*width: 398px;*/
+	padding: 3px 15px 3px 15px;
+}
+
+#contentwrap h1, #contentwrap1col h1, #contentwrap2col h1, #contentwrap_med h1 {
+	color: #35862a;
+}
+/*
+#contentwrap h1.newsSection {
+	color: #000000;
+	font-weight: bold;
+	background: url(/images/stylesheets/callout_hdr_bg_gold.gif) 0 0 repeat-x;
+}
+*/
+
+#newswrap { /* this wraps JUST the content */
+	float: left;
+	width: 500px;
+	padding: 3px 15px 3px 15px;
+	border: 0px solid green;
+}
+
+#newswrap h1 {
+	margin:0;
+	margin-bottom: 10px;
+	font-size: 90%;
+	padding: 4px 8px 4px 8px;
+	/* background: url(/images/stylesheets/callout_hdr_bg_gold.gif) 0 0 repeat-x;*/
+}
+
+#newswrap .storyHighlightsWrap {
+	border:1px solid #000;
+	padding:13px 6px 7px 6px;
+	margin-top:6px;
+	margin-bottom:10px;
+	position:relative;
+}
+
+#newswrap .storyHighlightsWrap h4 {
+	position:absolute;
+	top:-6px;left:10px;
+	margin:0 0 0 -7px;
+	padding:0 0 0 10px;
+	width:190px;
+	height:17px;
+	background:#fff;
+	color:#fdb813;
+}
+
+#callout { /* the boxes to the right of the content */
+	float: right;
+	width: 160px;
+	padding: 8px 0 0 0;
+	overflow: visible;
+	border: 0px solid blue;
+}
+
+.calloutbox { /* creates the single-pixel border around the callout boxes */
+	border: 1px solid #00718f;
+	margin-bottom: 5px;
+}
+
+.calloutbox h1 {
+	margin:0;
+	margin-bottom: 10px;
+	font-size: 90%;
+	padding: 4px 8px 4px 8px;
+	background: url(/stylesheets/images/callout_hdr_bg.gif) 0 0 repeat-x;
+	border-bottom: 1px solid #00718f;
+}
+
+.docbox { /* creates the single-pixel border around the callout boxes */
+	border: 1px solid #00718f;
+	margin-bottom: 15px;
+	float: left;
+	width: 100%;
+}
+
+.docbox h2 {
+	margin:0;
+	margin-bottom: 10px;
+	font-size: 100%;
+	font-weight: bold;
+	padding: 4px 12px 4px 12px;
+	background: url(/stylesheets/images/callout_hdr_bg.gif) 0 0 repeat-x;
+	border-bottom: 1px solid #00718f;
+}
+
+.docbox ul {
+	list-style-type: none;
+	margin: 0 12px 1em 12px;
+	padding: 0;
+}
+
+.docbox ul li {
+	font-size: 100%;
+	margin: 0 0 .2em 0;
+}
+
+.docboxLabel {
+	float: left;
+	font-style: italic;
+	color: Gray;
+	width: 100px;
+	padding: 5px 10px 0 0;
+	text-align: right;
+}
+.docboxContent {
+	float: left;
+	width: 425px;
+	padding: 5px 10px 0 0;
+}
+
+.resbox ul {
+	list-style-type: none;
+}
+
+#callout ul {
+	margin: 0 12px 1em 12px;
+	padding: 0;
+}
+
+#callout li {
+	margin: 0 0 .2em 0;
+}
+
+#callout ul.highlights li {
+	list-style-type: none;
+	margin: 0 0 1em 0;
+	background: none;
+	padding: 0;
+}
+
+#callout a:link {
+	color: #35862a;
+}
+
+#callout a:visited {
+	color: #666;
+}
+
+#callout a:hover, #callout a:active, #callout a:focus {
+	color: #d18d01;
+}
+
+#callout p {
+	padding: 0 12px;
+	font-size: 85%;
+}
+
+#callout form {
+	padding: 0 12px;
+	margin-bottom: 10px;
+}
+
+#contentfooter { /* this wraps JUST the content */
+	padding: 3px 0px 3px 15px;
+	border: 0;
+	width: 570px;
+}
+
+#contentfooter h1 {
+	color: #35862a;
+}
+
+
+#footer {
+	position: relative;
+	display: block;
+	height: 190px;
+	width: 973px;
+	border: 0px dotted gray;
+	float: left;
+	border-top: 2px solid #00728F;
+}
+
+#footer span {
+	float:right;
+}
+
+#footer a {
+	color: #333;
+}
+
+#fat_footer {
+	position: relative;
+	display: block;
+	height: 160px;
+	width: 100%;
+	background-image: url('/stylesheets/images/footer_blue_bkgd.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+
+#fat_footer .column {
+	position: relative;
+	display: block;
+	width: 225px;
+	height: 130px;
+	float: left;
+	border: 0px dotted white;
+	border-right: 1px solid white;
+	margin: 12px 0 12px 12px;
+	color: white;
+	font-size: 8pt;
+	padding: 0 18px 0 0;
+	text-transform: uppercase;
+}
+
+#fat_footer h1 {
+	position: relative;
+	display: block
+	float: left;
+	width: 160px;
+	color: white;
+	background-color: #003A52;
+	font-weight: bold;
+	font-size: 8pt;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 0 0 8px;
+}
+
+#fat_footer ul {
+	margin: 0 0 0 12px;
+	padding: 0;
+	color: white;
+	font-size: 0.95em;
+}
+
+#fat_footer li, #fat_footer a {
+	list-style: none;
+	display: block;
+	font-weight: bold;
+	height: 100%;
+	padding: 0 0px 0 0;
+	color: white;
+	font-size: 0.95em;
+	text-decoration: none;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#fat_footer a:hover {
+	text-decoration: underline;
+}
+
+
+
+#sub_footer {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 36px;
+	border: 0px solid fuchsia;
+	float: left;
+	background-image: url('/stylesheets/images/sub_footer_bkgd.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	color: #00A1AB;
+	padding: 0 0 0 20px;
+}
+
+#sub_footer a {
+	color: #00A1AB;
+	text-decoration: none;
+	font-size: 0.80em;
+}
+
+#sub_footer a:hover {
+	text-decoration: underline;
+}
+
+p.prfriendly {
+	float: left;
+}
+
+p.prfriendly a {
+	background: url(/stylesheets/images/icon_print.gif) 0 .2em no-repeat;
+	color: #35862a;
+	padding-left: 20px;
+	text-transform:uppercase;
+	line-height:1.5em;
+}
+
+p.prfriendly a:hover {
+	background: url(/images/stylesheets/icon_print_hover.gif) 0 .2em no-repeat;
+	color: #d18d01;
+}
+
+p.email {
+	float: right;
+}
+
+p.email a:link {
+	background: url(/images/stylesheets/icon_email.gif) 0 .2em no-repeat;
+	color: #35862a;
+	padding-left: 20px;
+	text-transform:uppercase;
+	line-height:1.5em;
+}
+
+p.email a:hover {
+	background: url(/images/stylesheets/icon_email_hover.gif) 0 .2em no-repeat;
+	color: #d18d01;
+}
+
+.homelinks {
+	padding-bottom: 10px;
+}
+
+.homelinks a:link {
+	color: #333;
+}
+
+.homelinks a:visited {
+	color: #333;
+}
+
+.homelinks a:hover, .homelinks a:active, .homelinks a:focus  {
+	color: #d18d01;
+}
+
+.green {
+	color: #35862a;
+	font-weight: bold;
+}
+
+.imgleft {
+	float: left;
+	margin: 5px;
+}
+
+.imgright {
+	float: right;
+	margin: 5px;
+}
+
+div.logos {
+	text-align: center;
+	margin:0 auto;
+	width: 100%;
+}
+
+.logos img {
+	vertical-align: middle;
+	margin: 7px;
+}
+
+
+/* These are standard sIFR styles... do not modify */
+
+.sIFR-flash {
+	visibility: visible !important;
+	margin: 0;
+}
+
+.sIFR-replaced {
+	visibility: visible !important;
+}
+
+span.sIFR-alternate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+
+
+/* These "decoy" styles are used to hide the browser text before it is replaced... the negative-letter spacing in this case is used to make the browser text metrics match up with the sIFR text metrics since the sIFR text in this example is so much narrower... your own settings may vary... any weird sizing issues you may run into are usually fixed by tweaking these decoy styles */
+
+.sIFR-hasFlash #contentwrap h1 {
+	visibility: hidden;
+	letter-spacing: -1px;
+	color: #35862a;
+}
+
+.sIFR-hasFlash #contentwrap1col h1 {
+	visibility: hidden;
+	letter-spacing: -1px;
+	color: #35862a;
+}
+
+.sIFR-hasFlash #contentwrap2col h1 {
+	visibility: hidden;
+	letter-spacing: -1px;
+	color: #35862a;
+}
+
+.sIFR-hasFlash #contentfooter h1 {
+	visibility: hidden;
+	letter-spacing: -1px;
+	color: #35862a;
+}
+/*
+.sIFR-hasFlash #newswrap h1 {
+	visibility: hidden;
+	letter-spacing: -1px;
+	color: #000000;
+}
+*/
+#rsslink { 
+	font-size: 0.8em; padding: 1px 0 2px 18px; background:  url(/stylesheets/images/feedicon.gif) 0 0 no-repeat;  
+}
+
+#rsslist ul {
+	list-style-type: none; 
+	margin: 0 0 0 1em;
+}
+
+#rsslist li {
+	margin: 0 0 .5em 0;
+}
+
+/* separate lists from subsequent content */
+.newsHighlightsWrap 
+{
+	margin-bottom: 1em; 
+	margin-left:0;  
+	width: 395px;
+	border: solid 0px #ccc;
+}
+
+/* position list chunks side by side */
+.newsHighlightsWrapper, .newsHighlightsWrapper2
+{
+	float: left;
+	width: 123px;
+	margin-right:.4em;
+}
+
+/* clear float after lists */
+.newsHighlightsWrap br
+{
+	clear: left;
+}
+
+/* remove default spacing  to promote cross-browser consistency */
+.newsHighlightsWrapper p
+{
+	margin: 0;
+	padding: 0;
+	font-size:10px;
+}
+
+.newsHighlightsWrapper2 p
+{
+	margin: 0;
+	padding: 0;
+	font-size:10.5px;
+}
+
+.banner_170XVar { 
+	margin: 0 0px 5px 0; 
+	width: 170px; 
+	border:0;
+}
+
+/*
+.storyHighlightsWrap {
+	border:1px solid ##000;
+	padding:13px 6px 7px 6px;
+	margin-top:6px;
+	margin-bottom:10px;
+	position:relative;
+}
+
+
+#newswrap .storyHighlightsWrap h4 {
+	position:absolute;
+	top:-6px;left:10px;
+	margin:0 0 0 -7px;
+	padding:0 0 0 0px;
+	width:180px;
+	height:17px;
+	background:##fff url(/uploads/livingwithoutlimitsbanner.jpg) 0 0 no-repeat;
+}
+*/

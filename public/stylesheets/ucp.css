@@ -1,138 +1,140 @@
-/* @override http://localhost:3000/stylesheets/ucp.css?1263759066 */
+/* Styles for Remediation #1 (UCP1 - Sealevel) */
 
-body {
-      background-color: #eee;
-      margin: 0px;
-      font-family: arial, helvetica, sans-serif;
-      font-size:14pt;
-    }
+/* Wrapper is 960px wide and uses auto margins to center */
 
-#brandingbar ul {
+
+/* Top Hat */
+
+div#tophat {
+	position: relative;
 	display: block;
-	border: 2px solid #000d0c;
-	list-style-type: none;
+	height: 40px;
+	background-image: url('/stylesheets/images/tophat_bkgd.png');
+	width: 100%;
+	margin: 0;
+	padding: 0 0 2px 0;
 }
 
-#brandingbar ul li a {
-	font-weight: normal;
-	font-style: normal;
-	text-decoration: none;
+div#tophat_content {
+	position: relative;
+	display: block;
+	color: #00728F;
+	width: 960px;
+	margin: auto;
+	padding: 0;
+	float: center;
 }
 
-#brandingbar ul li {
-	display: inline;
-	padding: 5px 10px;
+div#tophat_msg {
+	position: relative;
+	display: block;
+	color: #00728F;
+	width: 400px;
+	margin: 0;
+	padding: 10px 0 0 40px;
+	float: left;
+	text-align: left;
+	font-size: 8pt;
+	text-transform: uppercase;
 }
-    
-    div#contentwrap {
-	margin: 0 20px;
+
+div#tophat_msg a {
+	text-decoration: underline;
+	color: #00728F;
 }
-    
-#search_by_name {
+
+div#affnet_link {
+	position: relative;
+	display: block;
+	color: #00728F;
+	width: 400px;
+	margin: 0;
+	padding: 10px 40px 0 0;
 	float: right;
+	text-align: right;
+	font-size: 7pt;
+	text-transform: uppercase;
 }
 
-p label {
+div#affnet_link img {
+	vertical-align:bottom;
+}
+
+div#affnet_link a {
+	text-decoration: none;
+	color: #00728F;
+}
+
+/* Header */
+
+/* Horizontal Nav (Channels) */
+/* Navigation Menu Styles */
+
+#mainnav {
+	position: relative;
+	display: block;
+	height: 24px;
+	background-color: #eee;
+	margin-top: 12px;
+}
+
+#mainnav ul {
+	position: relative;
+	padding: 0px;
+	float: left;
+	text-align: center;
+	margin: 0;
+	margin-left: 4px;
+	margin-right: auto;
+	height: 24px;
+}
+
+#mainnav li {
+	list-style: none;
+	display: block;
+	overflow: none;
+	float: left;
+	font-size: 0.75em;
 	font-weight: bold;
-	width: 40%;
+	height: 100%;
+	padding: 0 0px 0 0;
 }
-        
-    div.label {
-      position:relative;
-      background-color: #999;
-      font-family: arial, helvetica, sans-serif;
-      font-size: 20pt;
-      color: white;
-      top: 192px;
-      left:0px;
-      z-index:1;
-      width:320px;
-      text-align:center;
-      padding: 8px 0px 8px 0px;
-      display:block;
-      
-    }
-    
-    div.label a {
-      color:white;
-      text-decoration:none;
-    }
-    
-    div.label a:hover {
-      color: #008001;
-      text-decoration:underline;
-    }
 
-    
-    div.site_box {
-      position:relative;
-      margin: 40px 4px 10px 4px;
-      float:left;
-      display:inline;
-      border:1px solid #ddd;
-      width:320px;
-      height:240px;
-    }
-    
-    div.transparent_class {
-    	filter:alpha(opacity=75);
-    	-moz-opacity:0.75;
-    	-khtml-opacity: 0.75;
-    	opacity: 0.75;
-    }
-    
-    img { 
-      position:relative;
-      top: 0px;
-      left:0px;
-      z-index:0;
-    }
-    
-    .error{
-      color: red
-    }
-    
-    div#brandingbar {
-      min-height:18px;
-      min-width:960px;
-      color: white;
-      #background-color: #008001; 
-      background-color: #3590DF; 
-      border-bottom:2px solid #004001;
-      padding:0.6em 0.9em 0.2em 0;
-      text-align:center;
-      filter:alpha(opacity=50);
-    	-moz-opacity:0.5;
-    	-khtml-opacity: 0.5;
-    	opacity: 0.5;
-    }
-    
-    div#bbinner {
-      clear:both;
-      margin:0 auto;
-      text-align:left;
-      width:960px;
-      font-family: arial, helvetica, sans-serif;
-      color: #fff;
-      font-size:0.8em;
-    }
+#mainnav li a, #mainnav li a:link, #mainnav li a:hover, #mainnav li a:visited {	
+	position: relative;
+	display: block;
+	height: 100%;
+	padding: 5px 6px 0 6px;
+	text-decoration: none;
+	color: #00728F;	
+	
+}
 
-	div#add_affiliate {
-		clear: both;
-		width: 90%;
-		float: left;
-		padding: .6em .9em;
-		margin: 3em 0;
-	}
-    
-    div#bbinner a {
-      font-family: arial, helvetica, sans-serif;
-      color: #004001;
-      text-decoration:none;
-      font-size:1.20em;
-    }
-    
-    h1 {
-     font-size:24pt;
-     color: #008001;
-    }
+#mainnav li a:hover {
+	background-color: #003A52;
+	color: white;
+	height: 20px;
+}
+
+li#current_btn, li#current_btn a {
+	background-color: #003A52;
+	color: white;
+}
+
+/* End Navigation Menu Styles */
+
+/* Masthead */
+
+/* Main Content Section */
+
+/* Left Column (Nav) */
+
+/* Center column */
+
+/* Right column */
+
+/* Footer */
+
+/* Footer: Fat Footer */
+
+/* Footer: Sub Footer */

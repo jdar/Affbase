@@ -1,0 +1,112 @@
+/* --- Legacy Main Nav styles removed 2010 ---*/
+/* --- end main nav stuff --- */
+
+#sidenav {
+	float: left;
+	width: 220px;
+	padding: 12px 6px 20px 6px;
+	border: 0px solid gray;
+}
+
+#sidenav h1 {
+	font-size: 0.75em;
+	text-transform: uppercase;
+	margin-bottom: .5em;
+	color: #00728F;
+}
+
+#sidenav ul, #sidenav li {
+	line-height: 1.65em;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidenav li {
+	font-size: 75%; /* **** */
+	padding: 0 0 .2em .7em;
+	color: #00728F;
+	text-transform: uppercase;
+}
+
+#sidenav hr {
+	text-align: center;
+	height: 1px;
+	width: 85%;
+	border: none 0; 
+	border-top: 1px solid #333; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#sidenav a {
+	text-decoration: none;
+	color: #00728F;
+}
+
+#sidenav a:visited {
+	color: #00728F;
+	
+}
+
+#sidenav a:hover, #sidenav a:active {
+	text-decoration: underline;
+	color: #00728F;
+}
+
+
+#sidenav li ul {
+	margin-left: 3px;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+#sidenav li ul li {
+   	background: url(/stylesheets/images/bullet_arrow.gif) 0 .4em no-repeat;
+	line-height: 1.2em;
+	}
+	
+#sidenav li ul li a {
+	color:#066;
+}
+
+#sidenav p {
+	font-size: 85%;
+}
+
+/* to turn a sidebav item on, use class="on" as below
+
+For top-level list items (un-nested li tags) with a nested ul 
+in them, you must put this class on the "a" tag, otherwise all
+nested li tags will become bold
+
+To be safe, just use this on the a tag all the time.
+
+*/
+
+#sidenav .on {
+	font-weight: bold;
+}
+
+/* This was added for the Medicaid Project */
+
+#mainnav_2 {
+margin:0;
+padding:0;
+height:30px;
+width: 760px;
+}
+
+#mainnav_2 ul{
+margin:0;
+padding:0;
+height:30px;
+width: 760px;
+}
+
+#mainnav_2 ul li{
+margin:0;
+padding:0;
+float:left;
+background:url(/stylesheets/images/mainnav_no_text.gif) 0 0 no-repeat;
+}
