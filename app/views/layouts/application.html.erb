@@ -10,20 +10,31 @@
 	<%= GMap.header %>
 </head>
 <body>
+	<div id="tophat">
+	<div id="tophat_content">
+		<div id="tophat_msg">We are currently remodeling. <a href="">Find out how you can help.</a></div>
+		<div id="affnet_link"><a href="/intranet/index.cfm"><img src="/images/padlock.png" alt="padlock icon">&nbsp;UCP AffNet Entrance</a></div>
+	</div>
+</div>
+
 <div id="wrapper">
 	<div id="header">
 	  <div id="logo">a <a title="Life Without Limits" href="http://ucp.org"/>UCP Life Labs</a> experiment</div>
 		<%= render :partial => 'affiliates/search' %>
 	</div>
 	<div class="clearer">	</div>
-	<%#= render :partial => 'layouts/navigation' %>
-	<%= render :partial => 'affiliates/filter' %>
+	<%= render :partial => 'layouts/navigation' %>
+	<div id="mainwrapper">
+		<%= render :partial => 'affiliates/filter' %>
+		<div id="content">
+			<p style="color: green"><%= flash[:notice] %></p>
 
-	<div id="contentwrap">
-	<p style="color: green"><%= flash[:notice] %></p>
-
-	<%= yield %>
+			<%= yield %>
+		</div>			
 	</div>
+	
+	<%= render :partial => 'layouts/footer' %>
+
 </div>
 
 

@@ -121,6 +121,58 @@ li#current_btn, li#current_btn a {
 	color: white;
 }
 
+    div.label {
+      position:relative;
+      background-color: #999;
+      font-family: arial, helvetica, sans-serif;
+      font-size: 20pt;
+      color: white;
+      top: 192px;
+      left:0px;
+      z-index:1;
+      width:320px;
+      text-align:center;
+      padding: 8px 0px 8px 0px;
+      display:block;
+      
+    }
+    
+    div.label a {
+      color:white;
+      text-decoration:none;
+    }
+    
+    div.label a:hover {
+      color: #008001;
+      text-decoration:underline;
+    }
+
+    
+    div.site_box {
+      position:relative;
+      margin: 40px 4px 10px 4px;
+      float:left;
+      display:inline;
+      border:1px solid #ddd;
+      width:320px;
+      height:240px;
+    }
+    
+    div.transparent_class {
+    	filter:alpha(opacity=75);
+    	-moz-opacity:0.75;
+    	-khtml-opacity: 0.75;
+    	opacity: 0.75;
+    }
+    
+    img { 
+      position:relative;
+      top: 0px;
+      left:0px;
+      z-index:0;
+    }
+    
+
 /* End Navigation Menu Styles */
 
 /* Masthead */
