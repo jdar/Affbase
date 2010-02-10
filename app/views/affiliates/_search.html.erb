@@ -1,17 +1,12 @@
-<% form_tag find_by_state_path, :method => "get", :id => "search_by_state" do %>
-    <%= label_tag :state, "Search by state:" %>
-   <%= select_tag(:state, options_from_collection_for_select(Affiliate.get_states, 'state', 'state'),  { :selected => params[:state], :include_blank => true, } ) %>
-  <%= submit_tag "Search", :name => nil  %>
-<% end -%>
+<div id="search">
+	<div id="localsearch">
+		<% form_tag find_by_name_path, :method => "get", :id => "search_by_name" do %>
+		    <%= label_tag(:name_abbr, "Search by name:") %>
+		  <%= text_field_with_auto_complete :affiliate, :name_abbr %>
+		  <%= submit_tag "Search", :name => nil  %>
+		<% end -%>
 
-<% form_tag find_by_region_path, :method => "get", :id => "search_by_region" do %>
-    <%= label_tag :region, "Search by region:" %>
-   <%= select_tag(:region, options_from_collection_for_select(Affiliate.get_regions, 'region', 'region'),  { :selected => params[:region], :include_blank => true, } ) %>
-  <%= submit_tag "Search", :name => nil  %>
-<% end -%>
-
-<% form_tag find_by_name_path, :method => "get", :id => "search_by_name" do %>
-    <%= label_tag(:name_abbr, "Search by name:") %>
-  <%= text_field_with_auto_complete :affiliate, :name_abbr %>
-  <%= submit_tag "Search", :name => nil  %>
-<% end -%>
+	</div>
+	
+	
+</div>

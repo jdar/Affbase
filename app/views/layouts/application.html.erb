@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Affiliates: <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'scaffold', 'ucp', 'nav', 'framework' %>
+	<%= javascript_include_tag :defaults %>
+	<%= GMap.header %>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+	  <div id="logo">a <a title="Life Without Limits" href="http://ucp.org"/>UCP Life Labs</a> experiment</div>
+		<%= render :partial => 'search' %>
+	</div>
+	<div class="clearer">	</div>
+	<%#= render :partial => 'layouts/navigation' %>
+	<%= render :partial => 'filter' %>
+
+	<div id="contentwrap">
+	<p style="color: green"><%= flash[:notice] %></p>
+
+	<%= yield %>
+	</div>
+</div>
+
+
+</body>
+</html>
