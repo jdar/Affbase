@@ -2,6 +2,8 @@ class Affiliate < ActiveRecord::Base
   require 'resolv'
   require 'rubygems'
   require 'rwebthumb'
+  require 'geokit'
+  
   include Simplificator::Webthumb
   validates_uniqueness_of :domain
   validates_presence_of [:org_name, :url], :message => "can't be blank"
