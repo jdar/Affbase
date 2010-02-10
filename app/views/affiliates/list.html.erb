@@ -1,6 +1,6 @@
 <% if @affiliates   %>
 <%= make_map(@affiliates) %>
-<%= @map.div(:width => 800, :height => 400) %>
+<%= @map.div(:width => 700, :height => 400) %>
 <% end -%>
 
 <h1>UCP Affiliates <%= @filtered_by %></h1>
@@ -25,8 +25,3 @@
 	</tbody>
 
 </table>
-
-<div id="add_affiliate">
-<%= link_to 'New affiliate', new_affiliate_path %>
-<% # link_to 'View external source', :controller => "affiliates", :action => "getfeed"   %>
-</div>
