@@ -3,14 +3,13 @@
 	<% form_tag find_by_state_path, :method => "get", :id => "search_by_state" do %>
     <%= label_tag :state, "Search by state:" %>
    <%= select_tag "state", "<option></option>" + options_from_collection_for_select(Affiliate.get_states, 'state', 'state', params[:state])  %>
-  <%= submit_tag "Search", :name => nil  %>
+  <%= observe_field :state, :complete => "window.location='#{find_by_state_path}?state='+encodeURIComponent(value)" %>
 <% end -%>
 
 <% form_tag find_by_region_path, :method => "get", :id => "search_by_region" do %>
     <%= label_tag :region, "Search by region:" %>
    <%= select_tag "region", "<option></option>" + options_from_collection_for_select(Affiliate.get_regions, 'region', 'region', params[:region] )  %>
-
-  <%= submit_tag "Search", :name => nil  %>
+  <%= observe_field :region, :complete => "window.location='#{find_by_region_path}?region='+encodeURIComponent(value)" %>
 <% end -%>
 
 
