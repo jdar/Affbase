@@ -2,13 +2,14 @@
 	<h1>Filter List</h1>
 	<% form_tag find_by_state_path, :method => "get", :id => "search_by_state" do %>
     <%= label_tag :state, "Search by state:" %>
-   <%= select_tag(:state, options_from_collection_for_select(Affiliate.get_states, 'state', 'state'),  { :selected => params[:state], :include_blank => true, } ) %>
+   <%= select_tag "state", "<option></option>" + options_from_collection_for_select(Affiliate.get_states, 'state', 'state', params[:state])  %>
   <%= submit_tag "Search", :name => nil  %>
 <% end -%>
 
 <% form_tag find_by_region_path, :method => "get", :id => "search_by_region" do %>
     <%= label_tag :region, "Search by region:" %>
-   <%= select_tag(:region, options_from_collection_for_select(Affiliate.get_regions, 'region', 'region'),  { :selected => params[:region], :include_blank => true, } ) %>
+   <%= select_tag "region", "<option></option>" + options_from_collection_for_select(Affiliate.get_regions, 'region', 'region', params[:region] )  %>
+
   <%= submit_tag "Search", :name => nil  %>
 <% end -%>
 
