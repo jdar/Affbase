@@ -1,0 +1,3541 @@
+%YAML 1.1
+---
+# affbase_development.affiliates
+-
+  id: 12
+  org_name: UCP of the Mid-South
+  url: ucpmemphis.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:43
+  domain: ucpmemphis.org
+  siteid: 143
+  name_abbr: Mid-South
+  contact_first_name: Peggy
+  contact_last_name: Fryer
+  contact_email: pfryer@ucpmemphis.org
+  address1: 4189 Leroy Avenue
+  city: Memphis
+  state: TN
+  zip: 38108
+  phone1: (901) 761-4277
+  phone2: 
+  tty: 
+  fax: (901) 761-7876
+  email: ucp@ucpmemphis.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 35.1755
+  long: -89.9206
+-
+  id: 13
+  org_name: UCP of Pittsburgh
+  url: ucppittsburgh.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:43
+  domain: ucppittsburgh.org
+  siteid: 136
+  name_abbr: Pittsburgh
+  contact_first_name: Al
+  contact_last_name: Condeluci
+  contact_email: acondeluci@ucppittsburgh.org
+  address1: 4638 Centre Avenue
+  city: Pittsburgh
+  state: PA
+  zip: 15213
+  phone1: (412) 683-7100
+  phone2: 
+  tty: 
+  fax: (412) 683-4160
+  email: info@ucppittsburgh.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 40.4522
+  long: -79.95
+-
+  id: 14
+  org_name: UCP Central PA
+  url: ucpcentralpa.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:44
+  domain: ucpcentralpa.org
+  siteid: 132
+  name_abbr: Central PA
+  contact_first_name: Jeff
+  contact_last_name: Cooper
+  contact_email: jcooper@ucpcentralpa.org
+  address1: 44 South 38th Street
+  city: Camp Hill
+  state: PA
+  zip: 17011
+  phone1: (717) 975-0611
+  phone2: 
+  tty: 
+  fax: (717) 975-0839
+  email: kidscenter@ucpcentralpa.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 40.2379
+  long: -76.9465
+-
+  id: 15
+  org_name: UCP of Illinois Prairieland
+  url: ucpilprairieland.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:45
+  domain: ucpilprairieland.org
+  siteid: 74
+  name_abbr: Illinois Prairieland
+  contact_first_name: Sam
+  contact_last_name: Mancuso
+  contact_email: sgmancuso@aol.com
+  address1: 311 South Reed Street
+  city: Joliet
+  state: IL
+  zip: 60436
+  phone1: (815) 744-3500
+  phone2: 
+  tty: 
+  fax: (815) 744-3504
+  email: ucpwill@ucpilprairieland.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 41.517
+  long: -88.1093
+-
+  id: 16
+  org_name: UCP of Queens
+  url: ucp-queens.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:45
+  domain: ucp-queens.org
+  siteid: 115
+  name_abbr: Queens
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: 81-15  164th Street
+  city: Jamaica
+  state: NY
+  zip: 11432
+  phone1: 718-380-3000
+  phone2: 
+  tty: 
+  fax: 718-380-0483
+  email: info@ucp-queens.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 40.72
+  long: -73.8041
+-
+  id: 17
+  org_name: UCP of Southeastern Wisconsin
+  url: ucpsew.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:46
+  domain: ucpsew.org
+  siteid: 155
+  name_abbr: Southeastern Wisconsin
+  contact_first_name: Yvonne
+  contact_last_name: Stueber
+  contact_email: ystueber@ucpsew.org
+  address1: 7519 West Oklahoma Avenue
+  city: Milwaukee
+  state: WI
+  zip: 53219
+  phone1: (414) 329-4500
+  phone2: (888) 482-7739
+  tty: (414) 329-4511
+  fax: (414) 329-4510
+  email: info@ucpsew.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 42.9882
+  long: -88.0062
+-
+  id: 18
+  org_name: UCP of South Central Pennsylvania
+  url: ucpsouthcentral.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:47
+  domain: ucpsouthcentral.org
+  siteid: 137
+  name_abbr: South Central Pennsylvania
+  contact_first_name: Paulette
+  contact_last_name: Houghton
+  contact_email: phoughton-@ucpsouthcentral.org
+  address1: 788 Cherry Tree Court
+  city: Hanover
+  state: PA
+  zip: 17331
+  phone1: (717) 632-5552
+  phone2: 
+  tty: 
+  fax: (717) 632-2315
+  email: phoughton+@ucpsouthcentral.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 39.8158
+  long: -76.9655
+-
+  id: 20
+  org_name: UCP of San Diego County
+  url: ucpsd.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:48
+  domain: ucpsd.org
+  siteid: 45
+  name_abbr: San Diego County
+  contact_first_name: David
+  contact_last_name: Carucci
+  contact_email: dcarucci@ucpsd.org
+  address1: 8525 Gibbs Drive,
+  city: San Diego
+  state: CA
+  zip: 92123
+  phone1: (858) 571-7803
+  phone2: 
+  tty: 
+  fax: (858) 571-0919
+  email: ucp@ucpsd.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 32.8104
+  long: -117.144
+-
+  id: 21
+  org_name: UCP of Colorado
+  url: cpco.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:49
+  domain: cpco.org
+  siteid: 186
+  name_abbr: UCP of Colorado
+  contact_first_name: Judy
+  contact_last_name: Ham
+  contact_email: jham@cpco.org
+  address1: 801 Yosemite Street
+  city: Denver
+  state: CO
+  zip: 80230
+  phone1: 303-691-9339
+  phone2: 
+  tty: 
+  fax: 303-691-0846  
+  email: jham@cpco.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 39.7289
+  long: -104.887
+-
+  id: 22
+  org_name: UCP of Western New York
+  url: ucpwny.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:50
+  domain: ucpwny.org
+  siteid: 123
+  name_abbr: Western New York
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: 7 Community Drive
+  city: Buffalo
+  state: NY
+  zip: 14225
+  phone1: 716-505-5500
+  phone2: 
+  tty: 
+  fax: 716-894-8257
+  email: info@ucpwny.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 42.931
+  long: -78.7736
+-
+  id: 23
+  org_name: UCP of Greater Chicago
+  url: ucpnet.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:51
+  domain: ucpnet.org
+  siteid: 71
+  name_abbr: Greater Chicago
+  contact_first_name: Paul
+  contact_last_name: Dulle
+  contact_email: pdulle@ucpnet.org
+  address1: 7550 West 183rd Street
+  city: Tinley Park
+  state: IL
+  zip: 60477
+  phone1: (708) 444-8460
+  phone2: 
+  tty: 
+  fax: (708) 429-3981
+  email: pdulle@ucpnet.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 41.5585
+  long: -87.8015
+-
+  id: 24
+  org_name: UCP of Nassau County
+  url: ucpn.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:51
+  domain: ucpn.org
+  siteid: 111
+  name_abbr: Nassau County
+  contact_first_name: Bob
+  contact_last_name: McGuire
+  contact_email: rmcguire@ucpn.org
+  address1: 380 Washington Avenue
+  city: Roosevelt
+  state: NY
+  zip: 11575
+  phone1: (516) 378-2000
+  phone2: 
+  tty: 
+  fax: (516) 868-4089
+  email: info@ucpn.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 40.6796
+  long: -73.5751
+-
+  id: 25
+  org_name: UCP of North Florida
+  url: ucpnflorida.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:52
+  domain: ucpnflorida.org
+  siteid: 57
+  name_abbr: North Florida
+  contact_first_name: Kimberly
+  contact_last_name: McManus
+  contact_email: kimberly.mcmanus@comcast.net
+  address1: 1241 N. East Avenue
+  city: Panama City
+  state: FL
+  zip: 32401
+  phone1: (850) 769-7960
+  phone2: 
+  tty: 
+  fax: (850) 769-1060
+  email: kimberly.mcmanus@comcast.net
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 30.1706
+  long: -85.6251
+-
+  id: 26
+  org_name: UCP of Alaska/PARENTS, Inc.
+  url: parentsinc.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:52
+  domain: parentsinc.org
+  siteid: 175
+  name_abbr: Alaska
+  contact_first_name: Sanja
+  contact_last_name: Bolling
+  contact_email: sanja@parentsinc.org
+  address1: 4743 E. Northern Lights Boulevard
+  city: Anchorage
+  state: AK
+  zip: 99508
+  phone1: (907) 337-7678
+  phone2: 
+  tty: 
+  fax: (907) 337-7671
+  email: parents@parentsinc.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 61.1956
+  long: -149.792
+-
+  id: 27
+  org_name: UCP of Philadelphia & Vicinity
+  url: ucpphila.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:53
+  domain: ucpphila.org
+  siteid: 135
+  name_abbr: Philadelphia & Vicinity
+  contact_first_name: Steve
+  contact_last_name: Sheridan
+  contact_email: execadm@ucpphila.org
+  address1: 102 East Mermaid Lane
+  city: Philadelphia
+  state: PA
+  zip: 19118
+  phone1: (215) 242-4200
+  phone2: 
+  tty: 
+  fax: (215) 247-4229
+  email: pr@ucpphila.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 40.0698
+  long: -75.1952
+-
+  id: 28
+  org_name: Easter Seals UCP North Carolina
+  url: nc.eastersealsucp.com
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:54
+  domain: nc.eastersealsucp.com
+  siteid: 124
+  name_abbr: North Carolina
+  contact_first_name: Connie
+  contact_last_name: Cochran
+  contact_email: ccochran@nc.eastersealsucp.com
+  address1: 5171 Glenwood Avenue
+  city: Raleigh
+  state: NC
+  zip: 27612
+  phone1: (919) 783-8898
+  phone2: (800) 662-7119
+  tty: 
+  fax: (919) 782-5486
+  email: info@nc.eastersealsucp.com
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 35.8454
+  long: -78.6907
+-
+  id: 29
+  org_name: UCP of Westchester County
+  url: ucpw.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:54
+  domain: ucpw.org
+  siteid: 122
+  name_abbr: Westchester County
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: King Street & Lincoln Avenue
+  city: Purchase
+  state: NY
+  zip: 10577
+  phone1: 914-937-3800
+  phone2: 
+  tty: 
+  fax: 914-937-0967
+  email: ucpwest@aol.com
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 41.0599
+  long: -73.6946
+-
+  id: 30
+  org_name: UCP of Southern Maryland
+  url: ucpsm.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:55
+  domain: ucpsm.org
+  siteid: 83
+  name_abbr: Southern Maryland
+  contact_first_name: Mitzi
+  contact_last_name: Bernard
+  contact_email: bernardm@ucpsm.org
+  address1: 1919-A West Street
+  city: Annapolis
+  state: MD
+  zip: 21401
+  phone1: (410) 224-4205
+  phone2: 
+  tty: 
+  fax: (410) 224-0763
+  email: ucpinfo@ucpsm.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 38.979
+  long: -76.5267
+-
+  id: 31
+  org_name: Center for Discovery
+  url: sdtc.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:55
+  domain: sdtc.org
+  siteid: 119
+  name_abbr: Center for Discovery
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: P.O. Box 840
+  city: Harris
+  state: NY
+  zip: 12742
+  phone1: 914-794-1400
+  phone2: 
+  tty: 
+  fax: 914-794-1520
+  email: sdtc@sdtc.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 41.7143
+  long: -74.7263
+-
+  id: 32
+  org_name: UCP of the North Bay
+  url: ucpnb.org
+  created_at: 2010-01-21 16:58:05
+  updated_at: 2010-02-04 15:43:56
+  domain: ucpnb.org
+  siteid: 42
+  name_abbr: North Bay
+  contact_first_name: Margaret
+  contact_last_name: Farman
+  contact_email: mfarman@ucpnb.org
+  address1: 3835 Cypress Drive,
+  city: Petaluma
+  state: CA
+  zip: 94954
+  phone1: (707) 766-9990
+  phone2: 
+  tty: 
+  fax: 
+  email: info@ucpnb.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 38.228
+  long: -122.589
+-
+  id: 33
+  org_name: UCP of the Golden Gate
+  url: ucpgg.org
+  created_at: 2010-01-21 16:58:06
+  updated_at: 2010-02-04 15:43:57
+  domain: ucpgg.org
+  siteid: 35
+  name_abbr: Golden Gate
+  contact_first_name: Karen
+  contact_last_name: Glatze
+  contact_email: kglatze@ucpgg.org
+  address1: 1970 Broadway, Suite 115
+  city: Oakland
+  state: CA
+  zip: 94612
+  phone1: (510) 832-7430
+  phone2: 
+  tty: 
+  fax: (510) 839-1329
+  email: info@ucpgg.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 37.8086
+  long: -122.268
+-
+  id: 34
+  org_name: UCP of New Jersey
+  url: ucpanj.org
+  created_at: 2010-01-21 16:58:06
+  updated_at: 2010-02-04 15:43:57
+  domain: ucpanj.org
+  siteid: 98
+  name_abbr: New Jersey
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: 354 South Broad Street
+  city: Trenton
+  state: NJ
+  zip: 8608
+  phone1: 609-392-4004
+  phone2: 
+  tty: 
+  fax: 609-392-3505
+  email: info@ucpanj.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 40.2147
+  long: -74.7603
+-
+  id: 35
+  org_name: Enable (UCP of Syracuse)
+  url: enable1.org
+  created_at: 2010-01-21 16:58:06
+  updated_at: 2010-02-04 15:43:58
+  domain: enable1.org
+  siteid: 106
+  name_abbr: Enable/Syracuse
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: 1603 Court Street
+  city: Syracuse
+  state: NY
+  zip: 13208
+  phone1: 315-455-7591
+  phone2: 
+  tty: 
+  fax: 315-455-2494
+  email: swall-bollinger@enable1.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 43.0788
+  long: -76.1457
+-
+  id: 36
+  org_name: UCP of Los Angeles, Ventura & Santa Barbara Cos.
+  url: ucpla.org
+  created_at: 2010-01-21 16:58:06
+  updated_at: 2010-02-04 15:43:59
+  domain: ucpla.org
+  siteid: 37
+  name_abbr: Los Angeles, Ventura & Santa Barbara Counties
+  contact_first_name: Ronald
+  contact_last_name: Cohen
+  contact_email: rcohen@ucpla.org
+  address1: 6430 Independence Avenue
+  city: Woodland Hills
+  state: CA
+  zip: 91367
+  phone1: (818) 782-2211
+  phone2: 
+  tty: 
+  fax: (818) 909-9106
+  email: mail@ucpla.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 34.1875
+  long: -118.59
+-
+  id: 37
+  org_name: The Spastic Centre
+  url: thespasticcentre.com.au
+  created_at: 2010-01-21 16:58:06
+  updated_at: 2010-02-04 15:43:59
+  domain: thespasticcentre.com.au
+  siteid: 182
+  name_abbr: Spastic Centre
+  contact_first_name: Rob
+  contact_last_name: White
+  contact_email: rwhite@tscnsw.org.au
+  address1: 189 Allambie Road
+  city: Allambie Heights
+  state: ~
+  zip: 2100
+  phone1: 61 2 9451 9022
+  phone2: 
+  tty: 
+  fax: 61 2 9975 6158
+  email: scnsw@tscnsw.org.au
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: New South Wales
+  country: AU
+  aff_type: International Affiliate
+  template: 0
+  state_ind: 0
+  lat: -33.7571
+  long: 151.244
+-
+  id: 38
+  org_name: UCP of Greater Dane County
+  url: ucpdane.org
+  created_at: 2010-01-21 16:58:06
+  updated_at: 2010-02-04 15:44:00
+  domain: ucpdane.org
+  siteid: 152
+  name_abbr: Greater Dane County
+  contact_first_name: Camilla
+  contact_last_name: Rucinski
+  contact_email: camilla@ucpdane.org
+  address1: 2801 Coho Street, Suite 300
+  city: Madison
+  state: WI
+  zip: 53713
+  phone1: (608) 273-4434
+  phone2: 
+  tty: 
+  fax: (608) 273-3426
+  email: ucpgdc@ucpdane.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 43.0305
+  long: -89.4149
+-
+  id: 39
+  org_name: UCP of Greater Houston
+  url: ucphouston.org
+  created_at: 2010-01-21 16:58:06
+  updated_at: 2010-02-04 15:44:00
+  domain: ucphouston.org
+  siteid: 146
+  name_abbr: Greater Houston
+  contact_first_name: Elise
+  contact_last_name: Hough
+  contact_email: ehough@ucphouston.org
+  address1: 4500 Bissonnet, Suite 340
+  city: Bellaire
+  state: TX
+  zip: 77401
+  phone1: (713) 838-9050
+  phone2: 
+  tty: 
+  fax: (713) 838-9098
+  email: ucp@ucphouston.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 29.7162
+  long: -95.4521
+-
+  id: 40
+  org_name: UCP of Northwestern Pennsylvania
+  url: mecaucp.com
+  created_at: 2010-01-21 16:58:07
+  updated_at: 2010-02-04 15:44:01
+  domain: mecaucp.com
+  siteid: 134
+  name_abbr: Northwestern Pennsylvania
+  contact_first_name: Laura
+  contact_last_name: Eaton
+  contact_email: leaton@mecaucp.com
+  address1: 3745 West 12th Street
+  city: Erie
+  state: PA
+  zip: 16505
+  phone1: (814) 836-9113
+  phone2: 
+  tty: 
+  fax: (814) 833-3919
+  email: leaton@mecaucp.com
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 42.0924
+  long: -80.1654
+-
+  id: 41
+  org_name: UCP of Huntsville & Tennessee Valley
+  url: ucphuntsville.org
+  created_at: 2010-01-21 16:58:07
+  updated_at: 2010-02-04 15:44:02
+  domain: ucphuntsville.org
+  siteid: 27
+  name_abbr: Huntsville & Tennessee Valley
+  contact_first_name: Cheryl
+  contact_last_name: Smith
+  contact_email: csmith@ucphuntsville.org
+  address1: 2075 Max Luther Drive
+  city: Huntsville
+  state: AL
+  zip: 35810
+  phone1: (256) 852-5600
+  phone2: (256) 852-5673
+  tty: 
+  fax: (256) 852-6722
+  email: tracyc@ucphuntsville.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 34.758
+  long: -86.5982
+-
+  id: 42
+  org_name: Capability Scotland
+  url: capability-scotland.org.uk
+  created_at: 2010-01-21 16:58:07
+  updated_at: 2010-02-04 15:44:03
+  domain: capability-scotland.org.uk
+  siteid: 185
+  name_abbr: Capability Scotland
+  contact_first_name: Alan
+  contact_last_name: Dickson
+  contact_email: alan.dickson@capability-scotland.org.uk
+  address1: 11 Ellersly Road
+  city: Edinburgh
+  state: ~
+  zip: 12
+  phone1: 0131 313 5510
+  phone2: 
+  tty: 
+  fax: 0131 346 1681
+  email: ascs@capability-scotland.org.uk
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: EH, Scotland
+  country: GB
+  aff_type: International Affiliate
+  template: 0
+  state_ind: 0
+  lat: 55.9464
+  long: -3.2493
+-
+  id: 43
+  org_name: UCP of Central Ohio
+  url: ucpofcentralohio.org
+  created_at: 2010-01-21 16:58:07
+  updated_at: 2010-02-04 15:44:04
+  domain: ucpofcentralohio.org
+  siteid: 125
+  name_abbr: Central Ohio
+  contact_first_name: Kathy
+  contact_last_name: Streblo
+  contact_email: kstreblo@ucpofcentralohio.org
+  address1: 440 Industrial Mile Road
+  city: Columbus
+  state: OH
+  zip: 43228
+  phone1: (614) 279-0109
+  phone2: 
+  tty: 
+  fax: (614) 279-2527
+  email: mwerner@ucpofcentralohio.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 39.9438
+  long: -83.1133
+-
+  id: 44
+  org_name: UCP of Central Arizona
+  url: ucpofcentralaz.org
+  created_at: 2010-01-21 16:58:07
+  updated_at: 2010-01-26 02:27:44
+  domain: ucpofcentralaz.org
+  siteid: 30
+  name_abbr: Central Arizona
+  contact_first_name: Dan
+  contact_last_name: Rossi
+  contact_email: drossi@ucpofaz.org
+  address1: 1802 W. Parkside Lane
+  city: Phoenix
+  state: AZ
+  zip: 85027
+  phone1: (602) 943-5472
+  phone2: (888) 943-5472
+  tty: 
+  fax: (602) 943-4936
+  email: info@ucpofaz.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+-
+  id: 45
+  org_name: UCP of Greater Sacramento
+  url: ucpsacto.org
+  created_at: 2010-01-21 16:58:07
+  updated_at: 2010-02-04 15:44:04
+  domain: ucpsacto.org
+  siteid: 43
+  name_abbr: Greater Sacramento
+  contact_first_name: Doug
+  contact_last_name: Bergman
+  contact_email: dbergman@ucpsacto.org
+  address1: 191 Lathrop Way, Suite N
+  city: Sacramento
+  state: CA
+  zip: 95815
+  phone1: (916) 565-7700
+  phone2: 
+  tty: 
+  fax: (916) 565-7773
+  email: ucp@ucpsacto.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 38.5956
+  long: -121.464
+-
+  id: 46
+  org_name: UCP of Delaware
+  url: ucpde.org
+  created_at: 2010-01-21 16:58:07
+  updated_at: 2010-02-04 15:44:05
+  domain: ucpde.org
+  siteid: 52
+  name_abbr: Delaware
+  contact_first_name: Bill
+  contact_last_name: McCool, III
+  contact_email: wmccool@ucpde.org
+  address1: 700A River Road
+  city: Wilmington
+  state: DE
+  zip: 19809
+  phone1: (302) 764-2400
+  phone2: 
+  tty: 
+  fax: (302) 764-8713
+  email: wmccool@ucpde.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 39.7629
+  long: -75.4957
+-
+  id: 47
+  org_name: UCP of the Wabash Valley
+  url: ucpwv.org
+  created_at: 2010-01-21 16:58:08
+  updated_at: 2010-02-04 15:44:06
+  domain: ucpwv.org
+  siteid: 76
+  name_abbr: Wabash Valley
+  contact_first_name: Jacquie
+  contact_last_name: Denehie
+  contact_email: ucp.wv@verizon.net
+  address1: 621 Poplar Street
+  city: Terre Haute
+  state: IN
+  zip: 47807
+  phone1: (812) 232-6305
+  phone2: 
+  tty: 
+  fax: (812) 234-3683
+  email: ucp.wv@verizon.net
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 39.4634
+  long: -87.4092
+-
+  id: 48
+  org_name: UCP of Hawaii
+  url: ucpahi.org
+  created_at: 2010-01-21 16:58:08
+  updated_at: 2010-02-04 15:44:06
+  domain: ucpahi.org
+  siteid: 65
+  name_abbr: Hawaii
+  contact_first_name: Donna
+  contact_last_name: Fouts
+  contact_email: donna@ucpahi.org
+  address1: 414 Kuwili Street, Suite 105
+  city: Honolulu
+  state: HI
+  zip: 96817
+  phone1: (808) 532-6744
+  phone2: 
+  tty: 
+  fax: (808) 532-6747
+  email: ucpa@ucpahi.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 21.3172
+  long: -157.867
+-
+  id: 49
+  org_name: UCP of Central Maryland
+  url: ucp-cm.org
+  created_at: 2010-01-21 16:58:08
+  updated_at: 2010-02-04 15:44:07
+  domain: ucp-cm.org
+  siteid: 81
+  name_abbr: Central Maryland
+  contact_first_name: Diane
+  contact_last_name: Coughlin
+  contact_email: dcoughlin@ucp-cm.org
+  address1: 11350 McCormick Road
+  city: Hunt Valley
+  state: MD
+  zip: 21031
+  phone1: (410) 484-4540
+  phone2: 
+  tty: (800) 451-2452
+  fax: (410) 484-1807
+  email: info@ucp-cm.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 39.4938
+  long: -76.6593
+-
+  id: 50
+  org_name: UCP of Northeastern Maine
+  url: ucpofmaine.org
+  created_at: 2010-01-21 16:58:08
+  updated_at: 2010-02-04 15:44:08
+  domain: ucpofmaine.org
+  siteid: 80
+  name_abbr: Northeastern Maine
+  contact_first_name: Bobbi
+  contact_last_name: Yeager
+  contact_email: bobbijo.yeager@ucpofmaine.org
+  address1: 700 Mt. Hope Avenue, Suite 320
+  city: Bangor
+  state: ME
+  zip: 4401
+  phone1: 1-877-603-0030
+  phone2: 
+  tty: 
+  fax: (207) 941-2955
+  email: office@ucpofmaine.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 44.8254
+  long: -68.7272
+-
+  id: 51
+  org_name: UCP of Texas
+  url: ucptexas.org
+  created_at: 2010-01-21 16:58:08
+  updated_at: 2010-02-04 15:44:08
+  domain: ucptexas.org
+  siteid: 145
+  name_abbr: Texas
+  contact_first_name: Jean
+  contact_last_name: Langendorf
+  contact_email: jeanL@ucptexas.org
+  address1: 1016 La Posada Drive, Suite 145
+  city: Austin
+  state: TX
+  zip: 78752
+  phone1: (512) 472-8696
+  phone2: (800) 798-1492
+  tty: 
+  fax: (512) 472-8026
+  email: info@ucptexas.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 30.3255
+  long: -97.7024
+-
+  id: 52
+  org_name: Alleghenies UCP
+  url: alucp.org
+  created_at: 2010-01-21 16:58:08
+  updated_at: 2010-02-04 15:44:09
+  domain: alucp.org
+  siteid: 138
+  name_abbr: Alleghenies UCP
+  contact_first_name: Marie
+  contact_last_name: Polinsky
+  contact_email: mpolinsky@alucp.org
+  address1: 119 Jari Drive
+  city: Johnstown
+  state: PA
+  zip: 15904
+  phone1: (814) 262-9600
+  phone2: (877) 371-1110
+  tty: 
+  fax: (814) 262-9650
+  email: info@alucp.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 40.2873
+  long: -78.8277
+-
+  id: 53
+  org_name: UCP of Oregon & SW Washington
+  url: ucpaorwa.org
+  created_at: 2010-01-21 16:58:08
+  updated_at: 2010-02-04 15:44:10
+  domain: ucpaorwa.org
+  siteid: 129
+  name_abbr: Oregon & SW Washington
+  contact_first_name: Bud
+  contact_last_name: Thoune
+  contact_email: bthoune@ucpaorwa.org
+  address1: 11731 Northeast Glenn Widing Drive
+  city: Portland
+  state: OR
+  zip: 97220
+  phone1: (503) 777-4166
+  phone2: (800) 473-4581
+  tty: 
+  fax: (503) 771-8048
+  email: ucpa@ucpaorwa.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 45.5701
+  long: -122.543
+-
+  id: 54
+  org_name: UCP of Oklahoma
+  url: ucpok.org
+  created_at: 2010-01-21 16:58:09
+  updated_at: 2010-02-04 15:44:11
+  domain: ucpok.org
+  siteid: 128
+  name_abbr: Oklahoma
+  contact_first_name: Jim
+  contact_last_name: Rankin
+  contact_email: oklahoma@ucpok.org
+  address1: 10400 Greenbriar Place, Suite 101
+  city: Oklahoma City
+  state: OK
+  zip: 73159
+  phone1: (405) 917-7080
+  phone2: (800) 827-2289
+  tty: 
+  fax: (405) 759-3574
+  email: info@ucpok.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 35.3642
+  long: -97.5459
+-
+  id: 55
+  org_name: UCP of Northwest Florida
+  url: ucpnwfl.org
+  created_at: 2010-01-21 16:58:09
+  updated_at: 2010-02-04 15:44:13
+  domain: ucpnwfl.org
+  siteid: 58
+  name_abbr: Northwest Florida
+  contact_first_name: Sherry
+  contact_last_name: White
+  contact_email: swhite@ucpnwfl.org
+  address1: 2912 North E Street
+  city: Pensacola
+  state: FL
+  zip: 32501
+  phone1: (850) 432-1596
+  phone2: 
+  tty: 
+  fax: (850) 432-1930
+  email: information@ucpnwfl.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 30.4418
+  long: -87.2282
+-
+  id: 56
+  org_name: UCP of West Alabama
+  url: ucpwa.org
+  created_at: 2010-01-21 16:58:09
+  updated_at: 2010-02-03 01:16:35
+  domain: ucpwa.org
+  siteid: 28
+  name_abbr: West Alabama
+  contact_first_name: Lisa
+  contact_last_name: Skelton
+  contact_email: lisasucp@comcast.net
+  address1: 1100 UCP Parkway
+  city: Northport
+  state: AL
+  zip: 35476
+  phone1: (205) 345-3031
+  phone2: 
+  tty: 
+  fax: (205) 345-3035
+  email: lisasucp@comcast.net
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 33.2231
+  long: -87.5698
+-
+  id: 57
+  org_name: UCP of New York City
+  url: ucpnyc.org
+  created_at: 2010-01-21 16:58:09
+  updated_at: 2010-02-04 15:44:14
+  domain: ucpnyc.org
+  siteid: 112
+  name_abbr: New York City
+  contact_first_name: Ed
+  contact_last_name: Matthews
+  contact_email: ematthews@ucpnyc.org
+  address1: 80 Maiden Lane, 8th Floor
+  city: New York
+  state: NY
+  zip: 10038
+  phone1: (212) 683-6700
+  phone2: 
+  tty: 
+  fax: (212) 685-8394
+  email: info@ucpnyc.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 40.7073
+  long: -74.0076
+-
+  id: 58
+  org_name: UCP of Hudson County
+  url: ucpofhudsoncounty.org
+  created_at: 2010-01-21 16:58:09
+  updated_at: 2010-02-04 15:44:15
+  domain: ucpofhudsoncounty.org
+  siteid: 99
+  name_abbr: Hudson County
+  contact_first_name: Nick
+  contact_last_name: Starita
+  contact_email: hudsonucp@aol.com
+  address1: 721 Broadway
+  city: Bayonne
+  state: NJ
+  zip: 7002
+  phone1: (201) 436-2200
+  phone2: 
+  tty: 
+  fax: (201) 436-6642
+  email: kkearney@ucpofhudsoncounty.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 40.6717
+  long: -74.1117
+-
+  id: 59
+  org_name: UCP of North Central Wisconsin
+  url: ucp-wausau.org
+  created_at: 2010-01-21 16:58:09
+  updated_at: 2010-02-04 15:44:15
+  domain: ucp-wausau.org
+  siteid: 153
+  name_abbr: North Central Wisconsin
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: jpotter@ucp-wausau.org
+  address1: 740 North Third Street
+  city: Wausau
+  state: WI
+  zip: 54403
+  phone1: 715-842-8700
+  phone2: 800-472-4408
+  tty: 
+  fax: 715-848-3511
+  email: vbuchkoski@ucp-wausau.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 44.9627
+  long: -89.6276
+-
+  id: 60
+  org_name: UCP of Southwestern Pennsylvania
+  url: ucpswpa.org
+  created_at: 2010-01-21 16:58:09
+  updated_at: 2010-02-04 15:44:16
+  domain: ucpswpa.org
+  siteid: 139
+  name_abbr: Southwestern Pennsylvania
+  contact_first_name: Jill
+  contact_last_name: Ealy
+  contact_email: jealy@ucpswpa.org
+  address1: Washington Federal Square
+  city: Washington
+  state: PA
+  zip: 15301
+  phone1: (724) 229-0851
+  phone2: 
+  tty: 
+  fax: (724) 229-9252
+  email: info@ucpswpa.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 39.6431
+  long: -77.5712
+-
+  id: 61
+  org_name: UCP of South Florida
+  url: ucpsouthflorida.org
+  created_at: 2010-01-21 16:58:10
+  updated_at: 2010-02-04 15:44:16
+  domain: ucpsouthflorida.org
+  siteid: 56
+  name_abbr: South Florida
+  contact_first_name: Joseph
+  contact_last_name: Aniello
+  contact_email: joe.aniello@ucpsouthflorida.org
+  address1: 2700 West 81 Street
+  city: Hialeah
+  state: FL
+  zip: 33016
+  phone1: (305) 325-1080
+  phone2: 
+  tty: 
+  fax: (305) 325-1313
+  email: info@ucpsouthflorida.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 25.8956
+  long: -80.3383
+-
+  id: 62
+  org_name: UCP Michigan
+  url: ucpmichigan.org
+  created_at: 2010-01-21 16:58:10
+  updated_at: 2010-02-04 15:44:17
+  domain: ucpmichigan.org
+  siteid: 87
+  name_abbr: Michigan
+  contact_first_name: Linda
+  contact_last_name: Potter
+  contact_email: potter@ucpmichigan.org
+  address1: 4970 Northwind Drive, Suite 102
+  city: East Lansing
+  state: MI
+  zip: 48823
+  phone1: (517) 203-1200
+  phone2: (800) 828-2714
+  tty: 
+  fax: (517) 203-1203
+  email: ucp@ucpmichigan.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 42.7251
+  long: -84.4556
+-
+  id: 63
+  org_name: UCP of Greater Birmingham
+  url: ucpbham.com
+  created_at: 2010-01-21 16:58:10
+  updated_at: 2010-02-04 15:44:18
+  domain: ucpbham.com
+  siteid: 26
+  name_abbr: Greater Birmingham
+  contact_first_name: Gary
+  contact_last_name: Edwards
+  contact_email: gedwards@ucpbham.com
+  address1: 120 Oslo Circle
+  city: Birmingham
+  state: AL
+  zip: 35211
+  phone1: (205) 944-3900
+  phone2: 
+  tty: 
+  fax: (205) 944-3933
+  email: jellison@ucpbham.com
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 33.4305
+  long: -86.8757
+-
+  id: 64
+  org_name: Easter Seals/UCP
+  url: easterseals-ucp.org
+  created_at: 2010-01-21 16:58:10
+  updated_at: 2010-02-04 15:44:18
+  domain: easterseals-ucp.org
+  siteid: 69
+  name_abbr: Easter Seals/UCP
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: 507 East Armstrong
+  city: Peoria
+  state: IL
+  zip: 61603
+  phone1: 309-686-1177
+  phone2: 
+  tty: 
+  fax: 309-686-2035
+  email: sthompson@easterseals-ucp.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 40.7043
+  long: -89.5888
+-
+  id: 65
+  org_name: UCP of Santa Barbara County
+  url: ucpla.com
+  created_at: 2010-01-21 16:58:10
+  updated_at: 2010-02-04 15:44:19
+  domain: ucpla.com
+  siteid: 40
+  name_abbr: Santa Barbara County
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: 423 West Victoria Street
+  city: Santa Barbara
+  state: CA
+  zip: 93101
+  phone1: 805-966-1112
+  phone2: 
+  tty: 
+  fax: 805-962-7201
+  email: ucpla@aol.com
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 34.4187
+  long: -119.71
+-
+  id: 66
+  org_name: UCP of Baton Rouge
+  url: mcmainscdc.org
+  created_at: 2010-01-21 16:58:10
+  updated_at: 2010-02-04 15:44:20
+  domain: mcmainscdc.org
+  siteid: 78
+  name_abbr: Baton Rouge
+  contact_first_name: Janet
+  contact_last_name: Ketcham
+  contact_email: cdcjanet@gmail.com
+  address1: 1805 College Drive
+  city: Baton Rouge
+  state: LA
+  zip: 70808
+  phone1: (225) 923-3420
+  phone2: 
+  tty: 
+  fax: (225) 922-9316
+  email: cdcjanet@gmail.com
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 30.4335
+  long: -91.1347
+-
+  id: 67
+  org_name: Test Peru
+  url: ucpperu.org
+  created_at: 2010-01-21 16:58:10
+  updated_at: 2010-02-04 15:44:20
+  domain: ucpperu.org
+  siteid: 190
+  name_abbr: Test Peru
+  contact_first_name: Greg
+  contact_last_name: Elin
+  contact_email: gelin@ucp.org
+  address1: 1660 L St. NW, Suite 700
+  city: Washington 
+  state: DC
+  zip: 20036
+  phone1: 8008725827
+  phone2: 
+  tty: 
+  fax: 
+  email: gelin@ucp.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: 
+  province: 
+  country: US
+  aff_type: International Affiliate
+  template: 1
+  state_ind: 0
+  lat: 38.9035
+  long: -77.0381
+-
+  id: 68
+  org_name: UCP of East Central Florida
+  url: ucpecf.org
+  created_at: 2010-01-21 16:58:11
+  updated_at: 2010-02-04 15:44:21
+  domain: ucpecf.org
+  siteid: 180
+  name_abbr: East Central Florida
+  contact_first_name: Barry
+  contact_last_name: Pollack
+  contact_email: bpollack@ucpecf.org
+  address1: 1100 Jimmy Ann Drive
+  city: Daytona Beach
+  state: FL
+  zip: 32117
+  phone1: (386) 274-6474
+  phone2: 
+  tty: 
+  fax: (386) 274-6532
+  email: info@ucpecf.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 29.2203
+  long: -81.072
+-
+  id: 69
+  org_name: UCP of North Texas
+  url: ucpdallas.org
+  created_at: 2010-01-21 16:58:11
+  updated_at: 2010-02-04 15:44:22
+  domain: ucpdallas.org
+  siteid: 147
+  name_abbr: North Texas
+  contact_first_name: Bill
+  contact_last_name: Knudsen
+  contact_email: billknudsen@ucpdallas.org
+  address1: 8802 Harry Hines Boulevard
+  city: Dallas
+  state: TX
+  zip: 75235
+  phone1: (214) 351-2500
+  phone2: (800) 999-1898
+  tty: 
+  fax: (214) 351-2610
+  email: billknudsen@ucpdallas.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 32.8394
+  long: -96.8679
+-
+  id: 70
+  org_name: UCP of Greater Kansas City
+  url: ucpkc.org
+  created_at: 2010-01-21 16:58:11
+  updated_at: 2010-02-04 15:44:24
+  domain: ucpkc.org
+  siteid: 93
+  name_abbr: Greater Kansas City
+  contact_first_name: Bruce
+  contact_last_name: Scott
+  contact_email: bscott@ucpkc.org
+  address1: 3101 Broadway, Suite 400
+  city: Kansas City
+  state: MO
+  zip: 64111
+  phone1: (816) 531-4454
+  phone2: 
+  tty: 
+  fax: (816) 531-3383
+  email: bscott@ucpkc.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 39.1491
+  long: -94.5865
+-
+  id: 71
+  org_name: UCP of Northwest Missouri
+  url: ucpnwmo.org
+  created_at: 2010-01-21 16:58:11
+  updated_at: 2010-02-04 15:44:25
+  domain: ucpnwmo.org
+  siteid: 94
+  name_abbr: Northwest Missouri
+  contact_first_name: Teresa
+  contact_last_name: Gagliano
+  contact_email: tgagliano@ucpnwmo.org
+  address1: 3303 Frederick Avenue
+  city: St. Joseph
+  state: MO
+  zip: 64506
+  phone1: (816) 364-3836
+  phone2: 
+  tty: 
+  fax: (816) 390-8546
+  email: ucp@ucpnwmo.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 39.7769
+  long: -94.8157
+-
+  id: 72
+  org_name: UCP of Niagara County
+  url: ucpaofniagara.com
+  created_at: 2010-01-21 16:58:11
+  updated_at: 2010-02-04 15:44:26
+  domain: ucpaofniagara.com
+  siteid: 113
+  name_abbr: Niagara County
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: 9812 Lockport Road
+  city: Niagara Falls
+  state: NY
+  zip: 14304
+  phone1: 716-297-0798
+  phone2: 
+  tty: 
+  fax: 716-297-0998
+  email: niagaraucp@aol.com
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 43.1219
+  long: -78.9498
+-
+  id: 73
+  org_name: Infinitec
+  url: Infinitec
+  created_at: 2010-01-21 16:58:11
+  updated_at: 2010-02-04 15:44:27
+  domain: Infinitec
+  siteid: 177
+  name_abbr: ~
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: 160 North Wacker Drive
+  city: Chicago
+  state: IL
+  zip: 60606
+  phone1: 312-368-0380
+  phone2: 
+  tty: 
+  fax: 
+  email: 
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 41.885
+  long: -87.6373
+-
+  id: 74
+  org_name: UCP of Beaver, Butler & Lawrence Counties
+  url: ucpbbl.org
+  created_at: 2010-01-21 16:58:11
+  updated_at: 2010-02-04 15:44:27
+  domain: ucpbbl.org
+  siteid: 131
+  name_abbr: Beaver, Butler & Lawrence Cos.
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: 114 Skyline Drive
+  city: Butler
+  state: PA
+  zip: 16001
+  phone1: 724-283-3198
+  phone2: 
+  tty: 
+  fax: 724-283-5945
+  email: ucpbbl@nauticom.net
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 40.8871
+  long: -79.9778
+-
+  id: 75
+  org_name: UCP of Georgia
+  url: ucpga.org
+  created_at: 2010-01-21 16:58:11
+  updated_at: 2010-02-04 15:44:28
+  domain: ucpga.org
+  siteid: 63
+  name_abbr: Georgia
+  contact_first_name: Diane
+  contact_last_name: Wilush
+  contact_email: dwilush@ucpga.org
+  address1: 3300 Northeast Expressway, Building 9
+  city: Atlanta
+  state: GA
+  zip: 30341
+  phone1: (770) 676-2000
+  phone2: 
+  tty: 
+  fax: (770) 455-8040
+  email: info@ucpga.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 33.8233
+  long: -84.3539
+-
+  id: 76
+  org_name: UCP of Greater New Orleans
+  url: ucpgno.org
+  created_at: 2010-01-21 16:58:12
+  updated_at: 2010-02-04 15:44:29
+  domain: ucpgno.org
+  siteid: 79
+  name_abbr: Greater New Orleans
+  contact_first_name: Jo
+  contact_last_name: Bugg
+  contact_email: jo@ucpgno.org
+  address1: 2200 Veterans Memorial Blvd., Suite 103
+  city: Kenner
+  state: LA
+  zip: 70062
+  phone1: (504) 461-4266
+  phone2: 
+  tty: 
+  fax: (504) 461-9976
+  email: info@ucpgno.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 30.0065
+  long: -90.2371
+-
+  id: 77
+  org_name: UCP of Tampa Bay
+  url: achievetampabay.org
+  created_at: 2010-01-21 16:58:12
+  updated_at: 2010-02-04 15:44:29
+  domain: achievetampabay.org
+  siteid: 61
+  name_abbr: Tampa Bay
+  contact_first_name: Laura
+  contact_last_name: White
+  contact_email: lwhite@achievetampabay.org 
+  address1: 2215 E. Henry Avenue
+  city: Tampa
+  state: FL
+  zip: 33610
+  phone1: 813-239-1179 
+  phone2: 
+  tty: 
+  fax: (813) 237-3091
+  email: lwhite@achievetampabay.org 
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 27.999
+  long: -82.4333
+-
+  id: 78
+  org_name: UCP of West Central Wisconsin
+  url: ucpwcw.org
+  created_at: 2010-01-21 16:58:12
+  updated_at: 2010-02-04 15:44:30
+  domain: ucpwcw.org
+  siteid: 156
+  name_abbr: West Central Wisconsin
+  contact_first_name: Ruth
+  contact_last_name: Gullerud
+  contact_email: ucp1ruth@sbcglobal,net
+  address1: 206 Water Street
+  city: Eau Claire
+  state: WI
+  zip: 54703
+  phone1: (715) 832-1782
+  phone2: 
+  tty: 
+  fax: (715) 832-8203
+  email: ucp1ruth@sbcglobal.net
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 44.8022
+  long: -91.5035
+-
+  id: 79
+  org_name: UCP of Tarrant County
+  url: ucptc.org
+  created_at: 2010-01-21 16:58:12
+  updated_at: 2010-02-04 15:44:31
+  domain: ucptc.org
+  siteid: 148
+  name_abbr: Tarrant County
+  contact_first_name: Monica
+  contact_last_name: Prather
+  contact_email: mprather@ucptc.org
+  address1: 1555 Merrimac Circle, Suite 102
+  city: Fort Worth
+  state: TX
+  zip: 76107
+  phone1: 817-332-7171
+  phone2: 
+  tty: 
+  fax: 817-332-7601
+  email: info@ucptc.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: Great Plains
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 32.7289
+  long: -97.3597
+-
+  id: 80
+  org_name: UCP of Rhode Island
+  url: ucpri.org
+  created_at: 2010-01-21 16:58:12
+  updated_at: 2010-02-04 15:44:31
+  domain: ucpri.org
+  siteid: 141
+  name_abbr: Rhode Island
+  contact_first_name: Peter
+  contact_last_name: Quattromani
+  contact_email: pquattromani@ucpri.org
+  address1: 200 Main Street, Suite 210
+  city: Pawtucket
+  state: RI
+  zip: 2862
+  phone1: (401) 728-1800
+  phone2: 
+  tty: 
+  fax: (401) 728-0182
+  email: ucprisupport@ucpri.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 41.8767
+  long: -71.3842
+-
+  id: 81
+  org_name: UCP of Berkshire County
+  url: ucpberkshire.org
+  created_at: 2010-01-21 16:58:12
+  updated_at: 2010-02-04 15:44:32
+  domain: ucpberkshire.org
+  siteid: 84
+  name_abbr: Berkshire County
+  contact_first_name: Christine
+  contact_last_name: Singer
+  contact_email: csinger@ucpberkshire.org
+  address1: 208 West Street
+  city: Pittsfield
+  state: MA
+  zip: 1201
+  phone1: (413) 442-1562
+  phone2: 
+  tty: 
+  fax: (413) 499-4077
+  email: info@ucpberkshire.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 42.4484
+  long: -73.2574
+-
+  id: 82
+  org_name: UCP of Northern Nevada
+  url: ucpnn.org
+  created_at: 2010-01-21 16:58:12
+  updated_at: 2010-02-04 15:44:32
+  domain: ucpnn.org
+  siteid: 97
+  name_abbr: Northern Nevada
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: intercorp01@earthlink.net
+  address1: 4068 South McCarran Boulevard, Suite B
+  city: Reno
+  state: NV
+  zip: 89502
+  phone1: 775-331-3323
+  phone2: 
+  tty: 
+  fax: 775-331-7913
+  email: ucpnn@ucpnn.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: West
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 39.4768
+  long: -119.764
+-
+  id: 83
+  org_name: UCP of Southern Connecticut
+  url: ucpasouthernct.com
+  created_at: 2010-01-21 16:58:13
+  updated_at: 2010-02-04 15:44:33
+  domain: ucpasouthernct.com
+  siteid: 50
+  name_abbr: Southern Connecticut
+  contact_first_name: Andre
+  contact_last_name: Razzino
+  contact_email: arazzino.ucpasc@gmail.com
+  address1: 94-96 South Turnpike Road
+  city: Wallingford
+  state: CT
+  zip: 6492
+  phone1: (203) 269-3511
+  phone2: 
+  tty: 
+  fax: (203) 269-7411
+  email: ucpasouthernct@yahoo.com
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 41.446
+  long: -72.8453
+-
+  id: 84
+  org_name: UCP of Greater Indiana
+  url: ucpaindy.org
+  created_at: 2010-01-21 16:58:13
+  updated_at: 2010-02-04 15:44:34
+  domain: ucpaindy.org
+  siteid: 75
+  name_abbr: Greater Indiana
+  contact_first_name: Donna
+  contact_last_name: Roberts
+  contact_email: donnar@ucpaindy.org
+  address1: 6100 N. Keystone Avenue, Suite254
+  city: Indianapolis
+  state: IN
+  zip: 46220
+  phone1: (317) 632-3561
+  phone2: (800) 723-7620
+  tty: 
+  fax: (317) 632-3338
+  email: donnar@ucpaindy.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 39.8658
+  long: -86.1235
+-
+  id: 85
+  org_name: UCP of South Carolina
+  url: ucpsc.org
+  created_at: 2010-01-21 16:58:13
+  updated_at: 2010-02-04 15:44:34
+  domain: ucpsc.org
+  siteid: 142
+  name_abbr: South Carolina
+  contact_first_name: Diane
+  contact_last_name: Wilush
+  contact_email: info@ucpsc.org
+  address1: 3681 Leaphart Road, Suite A
+  city: West Columbia
+  state: SC
+  zip: 29169
+  phone1: 888-827-7277
+  phone2: (803) 926-8878
+  tty: 
+  fax: 770-455-8040
+  email: info@ucpsc.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 34.003
+  long: -81.1348
+-
+  id: 86
+  org_name: UCP of Greater Cincinnati
+  url: ucp-cincinnati.org
+  created_at: 2010-01-21 16:58:13
+  updated_at: 2010-02-04 15:44:35
+  domain: ucp-cincinnati.org
+  siteid: 126
+  name_abbr: Greater Cincinnati
+  contact_first_name: Susan
+  contact_last_name: Schiller
+  contact_email: sschiller@ucp-cincinnati.org
+  address1: 3601 Victory Parkway
+  city: Cincinnati
+  state: OH
+  zip: 45229
+  phone1: (513) 221-4606
+  phone2: 
+  tty: 
+  fax: (513) 872-5262
+  email: info@ucp-cincinnati.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 39.1476
+  long: -84.482
+-
+  id: 87
+  org_name: UCP of Stanislaus County
+  url: ucpstan.org
+  created_at: 2010-01-21 16:58:13
+  updated_at: 2010-02-04 15:44:36
+  domain: ucpstan.org
+  siteid: 47
+  name_abbr: Stanislaus County
+  contact_first_name: Russell
+  contact_last_name: Hayward
+  contact_email: russoldblue@aol.com
+  address1: 4265 Spyres Way,
+  city: Modesto
+  state: CA
+  zip: 95356
+  phone1: (209) 577-2122
+  phone2: 
+  tty: 
+  fax: (209) 577-2392
+  email: russoldblue@aol.com
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 37.702
+  long: -121.001
+-
+  id: 88
+  org_name: UCP of Southern Illinois
+  url: ucpsouthernillinois.org
+  created_at: 2010-01-21 16:58:13
+  updated_at: 2010-02-04 15:44:36
+  domain: ucpsouthernillinois.org
+  siteid: 73
+  name_abbr: Southern Illinois
+  contact_first_name: Sharon
+  contact_last_name: Hale
+  contact_email: ucpsi@onemain.com
+  address1: 9 Cusumano Professional Plaza Drive
+  city: Mt. Vernon
+  state: IL
+  zip: 62864
+  phone1: (618) 244-2505
+  phone2: 
+  tty: 
+  fax: (618) 244-3568
+  email: ucpsi@onemain.com
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 38.3084
+  long: -88.9423
+-
+  id: 89
+  org_name: UCP of Sarasota-Manatee
+  url: ucpsarasota.org
+  created_at: 2010-01-21 16:58:13
+  updated_at: 2010-02-04 15:44:37
+  domain: ucpsarasota.org
+  siteid: 59
+  name_abbr: Sarasota-Manatee
+  contact_first_name: Wendy
+  contact_last_name: Mann Resnick
+  contact_email: ucpwendy@aol.com
+  address1: 1090 S. Tamiami Trail
+  city: Sarasota
+  state: FL
+  zip: 34236
+  phone1: (941) 957-3599
+  phone2: 
+  tty: 
+  fax: (941) 957-3499
+  email: ucpwendy@aol.com
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 27.3276
+  long: -82.5329
+-
+  id: 90
+  org_name: CP of Northeast Florida
+  url: cpnef.org
+  created_at: 2010-01-21 16:58:14
+  updated_at: 2010-02-04 15:44:38
+  domain: cpnef.org
+  siteid: 178
+  name_abbr: Northeast Florida
+  contact_first_name: Holly
+  contact_last_name: Peters
+  contact_email: hpeters@cpnef.org
+  address1: 3311 Beach Boulevard
+  city: Jacksonville
+  state: FL
+  zip: 32207
+  phone1: (904) 396-1462
+  phone2: 
+  tty: 
+  fax: (904) 396-1199
+  email: agency@cpnef.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 30.3045
+  long: -81.6313
+-
+  id: 91
+  org_name: UCP of Pennsylvania
+  url: ucpofpa.org
+  created_at: 2010-01-21 16:58:14
+  updated_at: 2010-02-04 15:44:38
+  domain: ucpofpa.org
+  siteid: 130
+  name_abbr: Pennsylvania
+  contact_first_name: Kimberly
+  contact_last_name: Cossar
+  contact_email: kimberlycossar@wannarassoc.com
+  address1: 908 North Second Street
+  city: Harrisburg
+  state: PA
+  zip: 17102
+  phone1: (717) 441-6044
+  phone2: (866) 761-6129
+  tty: 
+  fax: (717) 236-2046
+  email: kimberlycossar@wannarassoc.com
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 1
+  lat: 40.2655
+  long: -76.8898
+-
+  id: 92
+  org_name: UCP Land of Lincoln
+  url: ucpll.org
+  created_at: 2010-01-21 16:58:14
+  updated_at: 2010-02-04 15:44:40
+  domain: ucpll.org
+  siteid: 72
+  name_abbr: Land of Lincoln
+  contact_first_name: Brenda
+  contact_last_name: Yarnell
+  contact_email: byarnell@ucpll.org
+  address1: 101 North 16th Street
+  city: Springfield
+  state: IL
+  zip: 62703
+  phone1: (217) 525-6522
+  phone2: 
+  tty: 
+  fax: (217) 525-9017
+  email: ucpll@ucpll.org 
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 39.8015
+  long: -89.6338
+-
+  id: 93
+  org_name: UCP of Central California
+  url: ccucp.org
+  created_at: 2010-01-21 16:58:14
+  updated_at: 2010-02-04 15:44:41
+  domain: ccucp.org
+  siteid: 36
+  name_abbr: Central California
+  contact_first_name: Jamie
+  contact_last_name: Marrash
+  contact_email: jamiem@ccucp.org
+  address1: 4224 N. Cedar Avenue
+  city: Fresno
+  state: CA
+  zip: 93726
+  phone1: (559) 221-8272
+  phone2: 
+  tty: 
+  fax: (559) 221-9347
+  email: jamiem@ccucp.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 36.7947
+  long: -119.754
+-
+  id: 94
+  org_name: UCP of Southern Arizona
+  url: ucpsa.org
+  created_at: 2010-01-21 16:58:14
+  updated_at: 2010-02-04 15:44:42
+  domain: ucpsa.org
+  siteid: 31
+  name_abbr: Southern Arizona
+  contact_first_name: Cindy
+  contact_last_name: Mars
+  contact_email: cechols@ucpsa.org
+  address1: 635 N. Craycroft Road
+  city: Tucson
+  state: AZ
+  zip: 85711
+  phone1: (520) 795-3108
+  phone2: 
+  tty: 
+  fax: (520) 795-3196
+  email: staff@ucpsa.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 32.2296
+  long: -110.876
+-
+  id: 95
+  org_name: UCP of Eastern Connecticut
+  url: ucpect.org
+  created_at: 2010-01-21 16:58:14
+  updated_at: 2010-02-04 15:44:43
+  domain: ucpect.org
+  siteid: 51
+  name_abbr: Eastern Connecticut
+  contact_first_name: Peggy
+  contact_last_name: Morrison
+  contact_email: mmorrison@ucpect.org
+  address1: 42 Norwich Road
+  city: Quaker Hill
+  state: CT
+  zip: 6375
+  phone1: (860) 443-3800
+  phone2: 
+  tty: 
+  fax: (860) 443-8272
+  email: email@ucpect.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 41.4242
+  long: -72.1101
+-
+  id: 96
+  org_name: UCP of Central Florida
+  url: ucpcfl.org
+  created_at: 2010-01-21 16:58:15
+  updated_at: 2010-02-04 15:44:43
+  domain: ucpcfl.org
+  siteid: 55
+  name_abbr: Central Florida
+  contact_first_name: Ilene
+  contact_last_name: Wilkins
+  contact_email: iwilkins@ucpcfl.org
+  address1: 3305 S. Orange Avenue
+  city: Orlando
+  state: FL
+  zip: 32806
+  phone1: (407) 852-3300
+  phone2: 
+  tty: 
+  fax: (407) 852-3301
+  email: iwilkins@ucpcfl.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 28.5067
+  long: -81.3752
+-
+  id: 97
+  org_name: Cerebral Palsy Association of British Columbia
+  url: bccerebralpalsy.com
+  created_at: 2010-01-21 16:58:15
+  updated_at: 2010-02-04 15:44:44
+  domain: bccerebralpalsy.com
+  siteid: 184
+  name_abbr: Cerebral Palsy Association of British Columbia
+  contact_first_name: Feri
+  contact_last_name: Dehdar
+  contact_email: info@bccerebralpalsy.com
+  address1: 801-409 Granville Street
+  city: Vancouver
+  state: ~
+  zip: 0
+  phone1: 604-408-9484
+  phone2: 800-663-0004
+  tty: 
+  fax: 604-408-9489
+  email: info@bccerebralpalsy.com
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: 
+  province: British Columbia
+  country: CA
+  aff_type: International Affiliate
+  template: 0
+  state_ind: 0
+  lat: 49.2853
+  long: -123.114
+-
+  id: 98
+  org_name: UCP of Illinois
+  url: ucpillinois.org
+  created_at: 2010-01-21 16:58:15
+  updated_at: 2010-02-04 15:44:45
+  domain: ucpillinois.org
+  siteid: 67
+  name_abbr: Illinois
+  contact_first_name: Don
+  contact_last_name: Moss
+  contact_email: dmossinc@sbcglobal.net
+  address1: 310 East Adams
+  city: Springfield
+  state: IL
+  zip: 62701
+  phone1: (217) 528-9681
+  phone2: 
+  tty: 
+  fax: (217) 528-9739
+  email: ucpil@aol.com
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 1
+  lat: 39.8006
+  long: -89.6513
+-
+  id: 99
+  org_name: UCP of Arkansas
+  url: ucpark.org
+  created_at: 2010-01-21 16:58:15
+  updated_at: 2010-02-04 15:44:46
+  domain: ucpark.org
+  siteid: 32
+  name_abbr: Arkansas
+  contact_first_name: Larry
+  contact_last_name: Stang
+  contact_email: larry@ucpcark.org
+  address1: 9720 N. Rodney Parham Road
+  city: Little Rock
+  state: AR
+  zip: 72227
+  phone1: (501) 224-6067
+  phone2: 
+  tty: 
+  fax: (501) 227-5591
+  email: general@ucpcark.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 34.7621
+  long: -92.3828
+-
+  id: 100
+  org_name: UCP of New York State
+  url: ucpa-nys.org
+  created_at: 2010-01-21 16:58:15
+  updated_at: 2010-02-04 15:44:46
+  domain: ucpa-nys.org
+  siteid: 102
+  name_abbr: New York State
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: 330 West 34th Street
+  city: New York
+  state: NY
+  zip: 10001
+  phone1: 212-947-5770
+  phone2: 
+  tty: 
+  fax: 212-356-0746
+  email: ucpofnys@aol.com
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 40.7525
+  long: -73.9944
+-
+  id: 101
+  org_name: UCP Texas
+  url: ucptexas.com
+  created_at: 2010-01-21 16:58:15
+  updated_at: 2010-02-04 15:44:47
+  domain: ucptexas.com
+  siteid: 188
+  name_abbr: ~
+  contact_first_name: Bill
+  contact_last_name: Knudsen
+  contact_email: billknudsen@ucptexas.com
+  address1: 7301 Burnett Road
+  city: Austin
+  state: TX
+  zip: 78757
+  phone1: (512) 468-7645
+  phone2: 
+  tty: 
+  fax: (877) 258-4984
+  email: info@ucptexas.com
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 1
+  lat: 30.3481
+  long: -97.7344
+-
+  id: 102
+  org_name: Cerebral Palsy Association in Alberta
+  url: cpalberta.com
+  created_at: 2010-01-21 16:58:16
+  updated_at: 2010-02-04 15:44:48
+  domain: cpalberta.com
+  siteid: 183
+  name_abbr: Cerebral Palsy in Alberta
+  contact_first_name: Janice
+  contact_last_name: Bushfield
+  contact_email: janice@cpalberta.com
+  address1: Jim and Pearl Burns Centre
+  city: Calgary
+  state: ~
+  zip: 0
+  phone1: 403-543-1161
+  phone2: 800-363-2807
+  tty: 
+  fax: 403-543-1168
+  email: admin@cpalberta.com
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: Alberta
+  country: CA
+  aff_type: International Affiliate
+  template: 0
+  state_ind: 0
+  lat: 51.0551
+  long: -114.062
+-
+  id: 103
+  org_name: UCP of Central Minnesota
+  url: ucpcentralmn.org
+  created_at: 2010-01-21 16:58:16
+  updated_at: 2010-02-04 15:44:48
+  domain: ucpcentralmn.org
+  siteid: 91
+  name_abbr: Central Minnesota
+  contact_first_name: Judy
+  contact_last_name: Moening
+  contact_email: judy@ucpcentralmn.org
+  address1: 510 25th Avenue North
+  city: St. Cloud
+  state: MN
+  zip: 56303
+  phone1: (320) 253-0765
+  phone2: (888) 616-3726
+  tty: 
+  fax: (320) 253-6753
+  email: info@ucpcentralmn.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 45.5629
+  long: -94.1879
+-
+  id: 104
+  org_name: UCP of Metropolitan Detroit
+  url: ucpdetroit.org
+  created_at: 2010-01-21 16:58:16
+  updated_at: 2010-02-04 15:44:49
+  domain: ucpdetroit.org
+  siteid: 89
+  name_abbr: Metropolitan Detroit
+  contact_first_name: Leslynn
+  contact_last_name: Angel
+  contact_email: langel@ucpdetroit.org
+  address1: 23077 Greenfield, Suite 205
+  city: Southfield
+  state: MI
+  zip: 48075
+  phone1: (248) 557-5070
+  phone2: 
+  tty: 
+  fax: (248) 557-0224
+  email: main@ucpdetroit.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 42.4602
+  long: -83.2021
+-
+  id: 105
+  org_name: UCP of Rockland County
+  url: jawonio.org
+  created_at: 2010-01-21 16:58:16
+  updated_at: 2010-02-04 15:44:50
+  domain: jawonio.org
+  siteid: 117
+  name_abbr: Jawonio
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: 260 Little Tor Road, North
+  city: New City
+  state: NY
+  zip: 10956
+  phone1: 914-634-4648
+  phone2: 
+  tty: 
+  fax: 914-634-7731
+  email: generalmail@jawonio.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 41.1656
+  long: -74.0046
+-
+  id: 106
+  org_name: UCP of Northern, Central & Southern New Jersey
+  url: ucpncsnj.org
+  created_at: 2010-01-21 16:58:16
+  updated_at: 2010-02-04 15:44:50
+  domain: ucpncsnj.org
+  siteid: 100
+  name_abbr: Northern, Central & Southern New Jersey
+  contact_first_name: Debby
+  contact_last_name: Miller
+  contact_email: dmiller@ucpncsnj.org
+  address1: 245 Main Street, Suite 113
+  city: Chester
+  state: NJ
+  zip: 7930
+  phone1: (908) 879-2243
+  phone2: 
+  tty: 
+  fax: (908) 879-8363
+  email: info@ucpncsnj.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 40.7869
+  long: -74.6906
+-
+  id: 107
+  org_name: UCP of Greater Cleveland
+  url: ucpcleveland.org
+  created_at: 2010-01-21 16:58:16
+  updated_at: 2010-02-04 15:44:51
+  domain: ucpcleveland.org
+  siteid: 161
+  name_abbr: Greater Cleveland
+  contact_first_name: Patricia
+  contact_last_name: Otter
+  contact_email: totter@ucpcleveland.org
+  address1: 10011 Euclid Avenue
+  city: Cleveland
+  state: OH
+  zip: 44106
+  phone1: (216) 791-8363
+  phone2: 
+  tty: 
+  fax: (216) 721-3372
+  email: totter@ucpcleveland.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 41.5041
+  long: -81.6177
+-
+  id: 108
+  org_name: UCP of Western Pennsylvania
+  url: ucpofwesternpa.org
+  created_at: 2010-01-21 16:58:16
+  updated_at: 2010-02-04 15:44:52
+  domain: ucpofwesternpa.org
+  siteid: 140
+  name_abbr: Western Pennsylvania
+  contact_first_name: Jane
+  contact_last_name: Hurd
+  contact_email: jhurd@ucpofwesternpa.org
+  address1: 2904 Seminary Drive
+  city: Greensburg
+  state: PA
+  zip: 15601
+  phone1: (724) 832-8272
+  phone2: 
+  tty: 
+  fax: (724) 837-8278
+  email: ucp@ucpofwesternpa.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 40.2962
+  long: -79.4717
+-
+  id: 109
+  org_name: UCP of Orange County
+  url: ucp-oc.org
+  created_at: 2010-01-21 16:58:17
+  updated_at: 2010-02-04 15:44:52
+  domain: ucp-oc.org
+  siteid: 44
+  name_abbr: Orange County
+  contact_first_name: Paul
+  contact_last_name: Pulver
+  contact_email: ppulver@ucp-oc.org
+  address1: 980 Roosevelt, Suite 100
+  city: Irvine
+  state: CA
+  zip: 92620
+  phone1: (949) 333-6400
+  phone2: 
+  tty: 
+  fax: (949) 333-6400
+  email: ppulver@ucp-oc.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 33.7045
+  long: -117.777
+-
+  id: 110
+  org_name: UCP Colorado
+  url: ucpco.org
+  created_at: 2010-01-21 16:58:17
+  updated_at: 2010-02-04 15:44:53
+  domain: ucpco.org
+  siteid: 48
+  name_abbr: Colorado
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: 2200 South Jasmine Street
+  city: Denver
+  state: CO
+  zip: 80222
+  phone1: 303-691-9339
+  phone2: 
+  tty: 
+  fax: 303-691-0846
+  email: jham@ucpco.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 39.6771
+  long: -104.918
+-
+  id: 111
+  org_name: UCP of Washington DC & Northern Virginia
+  url: ucpdc.org
+  created_at: 2010-01-21 16:58:17
+  updated_at: 2010-02-04 15:44:54
+  domain: ucpdc.org
+  siteid: 53
+  name_abbr: Washington DC & No. Virginia
+  contact_first_name: Dawn
+  contact_last_name: Carter
+  contact_email: dcarter@ucpdc.org
+  address1: 1818 New York Avenue, NE, Suite 101
+  city: Washington
+  state: DC
+  zip: 20002
+  phone1: (202) 526-0146
+  phone2: 
+  tty: 
+  fax: (202) 526-0519
+  email: dcarter@ucpdc.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 38.9178
+  long: -76.977
+-
+  id: 112
+  org_name: UCP of Northeastern Pennsylvania
+  url: ucpnepa.com
+  created_at: 2010-01-21 16:58:17
+  updated_at: 2010-02-04 15:44:54
+  domain: ucpnepa.com
+  siteid: 181
+  name_abbr: Northeastern Pennsylvania
+  contact_first_name: Sarah
+  contact_last_name: Drob
+  contact_email: drob_sarah@msn.com
+  address1: 425 Wyoming Avenue
+  city: Scranton
+  state: PA
+  zip: 18503
+  phone1: (570) 347-3357
+  phone2: (877) 827-8324
+  tty: (570) 347-3117
+  fax: (570) 341-5308
+  email: ucpnepa@epix.net
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 41.4121
+  long: -75.6622
+-
+  id: 113
+  org_name: UCP of Greater Utica Area
+  url: ucp-utica.org
+  created_at: 2010-01-21 16:58:17
+  updated_at: 2010-02-04 15:44:55
+  domain: ucp-utica.org
+  siteid: 110
+  name_abbr: Greater Utica Area
+  contact_first_name: 
+  contact_last_name: 
+  contact_email: 
+  address1: 1020 Mary Street
+  city: Utica
+  state: NY
+  zip: 13501
+  phone1: 315-724-6907
+  phone2: 
+  tty: 
+  fax: 315-798-8818
+  email: info@ucp-utica.org
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: 
+  province: 
+  country: 
+  aff_type: 
+  template: 0
+  state_ind: 0
+  lat: 43.0934
+  long: -75.2085
+-
+  id: 114
+  org_name: UCP of Nebraska
+  url: ucpnebraska.org 
+  created_at: 2010-01-21 16:58:17
+  updated_at: 2010-02-04 15:44:55
+  domain: ucpnebraska.org 
+  siteid: 96
+  name_abbr: Nebraska
+  contact_first_name: Carol
+  contact_last_name: Hahn
+  contact_email: carolhahn@ucpnebraska.org
+  address1: 920 S. 107th Avenue, Suite 302
+  city: Omaha
+  state: NE
+  zip: 68114
+  phone1: (402) 502-3572
+  phone2: (800) 729-2556
+  tty: 
+  fax: (402) 502-6791
+  email: jennyh@ucpnebraska.org 
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 41.2498
+  long: -96.0826
+-
+  id: 115
+  org_name: UCP of San Joaquin, Calaveras & Amador Counties
+  url: ucpsj.org
+  created_at: 2010-01-21 16:58:17
+  updated_at: 2010-02-04 15:44:57
+  domain: ucpsj.org
+  siteid: 38
+  name_abbr: San Joaquin, Calaveras & Amador Cos.
+  contact_first_name: Ray
+  contact_last_name: Call
+  contact_email: rcall@ucpsj.org
+  address1: 333 West Benjamin Holt Drive, Suite 1
+  city: Stockton
+  state: CA
+  zip: 95207
+  phone1: (209) 956-0290
+  phone2: 
+  tty: 
+  fax: (209) 956-0294
+  email: rcall@ucpsj.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: West
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 38.0125
+  long: -121.316
+-
+  id: 116
+  org_name: UCP of Minnesota
+  url: ucpmn.org
+  created_at: 2010-01-21 16:58:17
+  updated_at: 2010-02-04 15:44:58
+  domain: ucpmn.org
+  siteid: 90
+  name_abbr: Minnesota
+  contact_first_name: Stacey
+  contact_last_name: Vogele, Esq
+  contact_email: ucpmnstacey@hotmail.com
+  address1: 1821 University Avenue West. Suite 180 N
+  city: St. Paul
+  state: MN
+  zip: 55104
+  phone1: (651) 646-7588
+  phone2: 
+  tty: 
+  fax: (651) 646-3045
+  email: ucpmnStacey@hotmail.com
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: Great Plains
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 1
+  state_ind: 0
+  lat: 44.9573
+  long: -93.1759
+-
+  id: 117
+  org_name: UCP of Prince George's & Montgomery Counties
+  url: netathon.org
+  created_at: 2010-01-21 16:58:18
+  updated_at: 2010-02-04 15:44:58
+  domain: netathon.org
+  siteid: 82
+  name_abbr: Prince George's & Montgomery Cos.
+  contact_first_name: Charles
+  contact_last_name: McNelly
+  contact_email: ucppgmc@aol.com
+  address1: Wm. Irwin Buck Center
+  city: Lanham
+  state: MD
+  zip: 20706
+  phone1: (301) 459-0566
+  phone2: 
+  tty: (301) 459-0566
+  fax: (301) 459-7691
+  email: ucppgmc@aol.com
+  description: 
+  metric: 
+  activate: 1
+  public: 0
+  region: South
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 38.9671
+  long: -76.8619
+-
+  id: 118
+  org_name: UCP of Suffolk
+  url: ucp-suffolk.org
+  created_at: 2010-01-21 16:58:18
+  updated_at: 2010-02-04 15:44:59
+  domain: ucp-suffolk.org
+  siteid: 109
+  name_abbr: Suffolk
+  contact_first_name: Stephen
+  contact_last_name: Friedman
+  contact_email: sfriedman@ucp-suffolk.org
+  address1: 250 Marcus Boulevard
+  city: Hauppauge
+  state: NY
+  zip: 11788
+  phone1: (631) 232-0011
+  phone2: 
+  tty: 
+  fax: (631) 232-4422
+  email: info@ucp-suffolk.org
+  description: 
+  metric: 
+  activate: 1
+  public: 1
+  region: North Central
+  province: 
+  country: US
+  aff_type: Affiliate
+  template: 0
+  state_ind: 0
+  lat: 40.818
+  long: -73.2488
+# affbase_development.events
+-
+  id: 1
+  affiliate_id: 55
+  name: party
+  url: www.cnn.com
+  date: 2010-02-27 14:40:00
+  location: My house
+  created_at: 2010-01-27 14:42:08
+  updated_at: 2010-01-27 14:42:08
+-
+  id: 2
+  affiliate_id: 55
+  name: An evening at the palace
+  url: www.ucpgala.com
+  date: 2010-03-06 14:55:00
+  location: Lake Buena Vista
+  created_at: 2010-01-27 15:22:05
+  updated_at: 2010-01-27 15:22:05
+-
+  id: 3
+  affiliate_id: 55
+  name: an evening at the palace
+  url: 
+  date: 2010-01-27 15:22:00
+  location: Lake Buena Vista
+  created_at: 2010-01-27 15:23:21
+  updated_at: 2010-01-27 15:23:21
+# affbase_development.schema_migrations
+-
+  version: 20091231145514
+-
+  version: 20100103214726
+-
+  version: 20100111170442
+-
+  version: 20100125144714
+-
+  version: 20100127004538
+-
+  version: 20100201212053
+...
