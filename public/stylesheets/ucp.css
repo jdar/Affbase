@@ -1,3 +1,8 @@
+/* @override 
+	http://localhost:3000/stylesheets/ucp.css?1265818768
+	http://localhost:3000/stylesheets/ucp.css?1265985845
+*/
+
 /* Styles for Remediation #1 (UCP1 - Sealevel) */
 
 /* Wrapper is 960px wide and uses auto margins to center */
@@ -178,6 +183,26 @@ li#current_btn, li#current_btn a {
 /* Masthead */
 
 /* Main Content Section */
+
+#map_div {
+	margin: 0 0 20px 15px;		
+}
+
+#content h1 {
+	color: #00728F	
+}
+
+table {
+	border-style: solid;
+}
+tr.odd {
+	background-color: #eee;
+}
+
+td {
+	vertical-align: top;
+}
+ 
 
 /* Left Column (Nav) */
 

@@ -9,16 +9,16 @@
 		<tr>
 			<th>Organization Name</th>
 			<th>Organization URL </th>
-			<th>Date of Thumbnail</th>
+			<th>Address</th>
 			<th>Status</th>
 		</tr>
 	</thead>
 	<tbody>
 <% @affiliates.each do |affiliate| %>
-		<tr>
+		<tr class="<%= cycle("even", "odd") -%>">
 			<td><%= affiliate.name_abbr %> (<%= link_to 'Details', affiliate_path(affiliate) %>)</td>
 			<td><%= autolink(affiliate.url) %></td>
-			<td><%= affiliate.thumbnail_last_updated %> <br /> <%= link_to 'Regenerate now', :controller => "affiliates", :action => "regenerate_thumb", :id => affiliate %></td>
+			<td><%= generate_gmap_info_window(affiliate) %> </td>
 			<td><%= affiliate.active? %> </td>
 		</tr>
 <% end -%>

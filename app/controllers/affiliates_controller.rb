@@ -15,7 +15,7 @@ class AffiliatesController < ApplicationController
   # GET /affiliates/list
   # GET /affiliates/list.xml
   def list
-    @affiliates = Affiliate.all
+    @affiliates = Affiliate.all(:order => 'name_abbr')
           
     respond_to do |format|
       format.html # list.html.erb
