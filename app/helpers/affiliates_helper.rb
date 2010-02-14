@@ -14,10 +14,6 @@ module AffiliatesHelper
   end
   
   
-  def autolink( url, string=nil)
-    string.nil? ? "<a href=\"http://#{url}\">#{url}</a>" : "<a href=\"http://#{url}\">#{string}</a>"
-  end
-  
   def generate_gmap_info_window(a)
     "#{a.org_name} <br /> #{a.address1}<br /> #{a.city}, #{a.state} #{a.zip}<br />" + image_tag(a.thumbnail_url("_small"))
   end
