@@ -1,7 +1,3 @@
-/* @override 
-	http://localhost:3000/stylesheets/ucp.css?1265818768
-	http://localhost:3000/stylesheets/ucp.css?1265985845
-*/
 
 /* Styles for Remediation #1 (UCP1 - Sealevel) */
 
@@ -185,7 +181,12 @@ li#current_btn, li#current_btn a {
 /* Main Content Section */
 
 #map_div {
-	margin: 0 0 20px 15px;		
+	margin: 0 0 20px 15px;
+}
+
+#screenshot {
+	display: block;
+	float: right;
 }
 
 #content h1 {
