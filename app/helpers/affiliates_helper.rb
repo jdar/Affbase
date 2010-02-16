@@ -14,10 +14,6 @@ module AffiliatesHelper
   end
   
   
-  def autolink( url, string=nil)
-    string.nil? ? "<a href=\"http://#{url}\">#{url}</a>" : "<a href=\"http://#{url}\">#{string}</a>"
-  end
-  
   def generate_gmap_info_window(a)
     "#{a.org_name} <br /> #{a.address1}<br /> #{a.city}, #{a.state} #{a.zip}<br />" + image_tag(a.thumbnail_url("_small"))
   end
@@ -32,7 +28,15 @@ module AffiliatesHelper
     end
     @map.to_html
   end
-  
+
+  def makp_affiliate a
+    @map = GMap.new("map_div")
+    @map.control_init(:large_map => true,:map_type => true)
+    @map.set_map_type_init(GMapType::G_NORMAL_MAP)
+    @map.center_zoom_init([a.lat, a.long], 11)
+    @map.overlay_init(GMarker.new([a.lat, a.long],:title => a.name_abbr, :info_window => generate_gmap_info_window(a)))
+    @map.to_html
+  end  
   
 
 end

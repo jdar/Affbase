@@ -25,7 +25,7 @@
 	<div class="clearer">	</div>
 	<%= render :partial => 'layouts/navigation' %>
 	<div id="mainwrapper">
-		<%= render :partial => 'affiliates/filter' %>
+		<%= yield :filter %>
 		<div id="content">
 			<p style="color: green"><%= flash[:notice] %></p>
 
