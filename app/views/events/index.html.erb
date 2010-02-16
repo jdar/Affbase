@@ -11,12 +11,11 @@
 
 <% @events.each do |event| %>
   <tr>
-    <td><%=h event.affiliate.org_name %></td>
-    <td><%=h event.name %></td>
+    <td><%= link_to event.affiliate.org_name, affiliate_path(event.affiliate) %></td>
+    <td><%= link_to event.name, event_path(event) %></td>
     <td><%=h event.url %></td>
-    <td><%=h event.date %></td>
+    <td><%=h event.date.to_s %></td>
     <td><%=h event.location %></td>
-    <td><%= link_to 'Show', event %></td>
     <td><%= link_to 'Edit', edit_event_path(event) %></td>
     <td><%= link_to 'Destroy', event, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>

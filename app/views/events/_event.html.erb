@@ -1,4 +1,1 @@
-<p>
-  <%=h event.date %> <%=h event.name %>  <%=h event.url %>
-  <%=h event.location %>
-</p>
+<li> <%=h event.date.to_s(:short) %> <%= link_to event.name, event_path(event) %>  <%=h event.location %></li>

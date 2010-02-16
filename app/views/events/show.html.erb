@@ -1,6 +1,6 @@
 <p>
   <b>Affiliate:</b>
-  <%=h @event.affiliate_id %>
+  <%= link_to @event.affiliate.org_name, affiliate_path(@event.affiliate) %>
 </p>
 
 <p>
@@ -10,7 +10,7 @@
 
 <p>
   <b>Url:</b>
-  <%=h @event.url %>
+  <%= autolink(@event.url) %>
 </p>
 
 <p>

@@ -1,3 +1,5 @@
+
+
 /* USE PERCENTAGES FOR ALL FONT SIZES TO RETAIN THE ABILITY OF THE USER
 TO CHANGE THE FONT SIZE FOR BEST READABILITY FOR THEIR EYES AND MONITOR */
 
@@ -563,6 +565,7 @@ body.channel3 #masthead {
 	border: 0px dotted gray;
 	float: left;
 	border-top: 2px solid #00728F;
+	margin-top: 50px;
 }
 
 #footer span {

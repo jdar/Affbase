@@ -1,6 +1,9 @@
+<% content_for :filter do -%>
+			<%= render :partial => 'affiliates/filter' %>
+<% end -%>
 <% if @affiliates   %>
-<%= make_map(@affiliates) %>
-<%= @map.div(:width => 700, :height => 400) %>
+	<%= make_map(@affiliates) %>
+	<%= @map.div(:width => 700, :height => 400) %>
 <% end -%>
 
 <h1>UCP Affiliates <%= @filtered_by %></h1>
