@@ -40,6 +40,15 @@
     
 </div>
 
+<% if @affiliate.feed.entries.first %>
+	<div id="events">
+	<h2>Recent news</h2>
+	<ul>
+		<%= render :partial => 'feed_item',  :collection => @affiliate.feed.entries, :as => :entry %>
+	</ul>
+	</div>
+<% end -%>
+
 <% unless @affiliate.events.empty? %>
 	<div id="events">
 	<h2><%= pluralize(@affiliate.events.count, 'Event') %> (will be only upcoming)</h2>

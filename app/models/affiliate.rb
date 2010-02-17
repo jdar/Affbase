@@ -61,6 +61,10 @@ class Affiliate < ActiveRecord::Base
     
   end
   
+  def feed
+    Feedzirra::Feed.fetch_and_parse("http://www.ucp.org/ucp_localrss.cfm/" + siteid.to_s)
+  end
+  
     
   def geocode_address
     geo = GeoKit::Geocoders::MultiGeocoder.geocode(combined_addsess)
