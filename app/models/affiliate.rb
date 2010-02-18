@@ -62,7 +62,7 @@ class Affiliate < ActiveRecord::Base
   end
   
   def feed
-    Feedzirra::Feed.fetch_and_parse("http://www.ucp.org/ucp_localrss.cfm/" + siteid.to_s)
+    Feedzirra::Feed.fetch_and_parse("http://test.ucp.org/ucp_localrss.cfm/" + siteid.to_s)
   end
   
     
