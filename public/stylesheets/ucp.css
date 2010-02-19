@@ -203,6 +203,10 @@ tr.odd {
 td {
 	vertical-align: top;
 }
+
+div#tech_stuff{
+	display: none;
+}
  
 
 /* Left Column (Nav) */
