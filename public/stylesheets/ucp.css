@@ -151,7 +151,8 @@ li#current_btn, li#current_btn a {
     
     div.site_box {
       position:relative;
-      margin: 40px 4px 10px 4px;
+/*      margin: 40px 4px 10px 4px;
+*/
       float:left;
       display:inline;
       border:1px solid #ddd;
@@ -202,6 +203,10 @@ tr.odd {
 
 td {
 	vertical-align: top;
+}
+
+div#tech_stuff{
+	display: none;
 }
  
 
