@@ -27,8 +27,10 @@ class Affiliate < ActiveRecord::Base
   def generate_thumbnail
     wt = Webthumb.new(APP_CONFIG['webthumb_api']['key'])
     job = wt.thumbnail(:url => url)
-    job.write_file(job.fetch_when_complete(:medium2), "#{RAILS_ROOT}/public/data/#{url_id}.png")
-    job.write_file(job.fetch_when_complete(:small), "#{RAILS_ROOT}/public/data/#{url_id}_small.png")
+    unless job.nil?
+      job.write_file(job.fetch_when_complete(:medium2), "#{RAILS_ROOT}/public/data/#{url_id}.png")
+      job.write_file(job.fetch_when_complete(:small), "#{RAILS_ROOT}/public/data/#{url_id}_small.png")
+    end
   end
   
   def thumbnail_url size = ""
@@ -114,9 +116,7 @@ class Affiliate < ActiveRecord::Base
   def self.generate_thumbnails
     wt = Webthumb.new(APP_CONFIG['webthumb_api']['key'])
     Affiliate.all.each do |a|  
-      job = wt.thumbnail(:url => a.url)
-      job.write_file(job.fetch_when_complete(:medium2), "#{RAILS_ROOT}/public/data/#{a.url_id}.png")
-      job.write_file(job.fetch_when_complete(:small), "#{RAILS_ROOT}/public/data/#{a.url_id}_small.png")
+      a.generate_thumbnail
     end
   end
   
