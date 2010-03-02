@@ -173,6 +173,10 @@ li#current_btn, li#current_btn a {
       left:0px;
       z-index:0;
     }
+
+div.auto_complete {
+	z-index: 20;
+}
     
 
 /* End Navigation Menu Styles */

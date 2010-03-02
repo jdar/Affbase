@@ -19,8 +19,7 @@
 	<%= 'Ph2: ' + @affiliate.phone2 unless @affiliate.phone2.empty? %>  
 	<%= 'tty: ' + @affiliate.tty unless @affiliate.tty.empty? %> <br />  
 	<%= 'Fax: ' + @affiliate.fax unless @affiliate.fax.empty? %>  
-	<%= auto_link(@affiliate.email) unless @affiliate.email.empty? %>  
-  
+	<%= auto_link(@affiliate.email) unless @affiliate.email.empty? %>  <br />
   <%= autolink @affiliate.url %>
 </div>
  <p><%= @affiliate.contact_name %> (<%= @affiliate.contact_email %>)</p>
@@ -30,9 +29,9 @@
 <% if @affiliate.feed.entries.first %>
 	<div id="events">
 	<h2>Recent news</h2>
-	<ul>
+	<dl>
 		<%= render :partial => 'feed_item',  :collection => @affiliate.feed.entries, :as => :entry %>
-	</ul>
+	</dl>
 	</div>
 <% end -%>
 
