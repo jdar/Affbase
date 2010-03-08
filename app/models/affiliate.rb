@@ -16,7 +16,7 @@ class Affiliate < ActiveRecord::Base
   has_many :events
   
   def to_param
-    "#{id}-#{url_id}"
+    domain.gsub(".","_").strip.chomp("/")
   end
   
   def url_id
@@ -81,7 +81,10 @@ class Affiliate < ActiveRecord::Base
     @feed = YAML.load(open("http://ucp.org/sandbox/activeaffiliates.cfm?apikey=#{APP_CONFIG['ucp_api']['key']}"))
     @feed.each do |f,org|
       unless org["affiliate_name"].nil?
-     a = Affiliate.find_or_create_by_org_name(org["affiliate_name"].chomp(';')) 
+     a = Affiliate.find_or_create_by_org_name(org["affiliate_name"].chomp(';'))
+          a.org_name = org["affiliate_name"].chomp(';')
+          a.url = org["affiliate_url"].chomp(';').strip.chomp('/')
+          a.domain = a.url
           a.siteid = org["affiliate_id"].chomp(';') 
           a.name_abbr = org["affiliate_name_abbr"].chomp(';')
           a.address1 = org["affiliate_address1"].value.chomp(';') unless org["affiliate_address1"].nil?
