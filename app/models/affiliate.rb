@@ -16,7 +16,7 @@ class Affiliate < ActiveRecord::Base
   has_many :events
   
   def to_param
-    "#{id}-#{url_id}"
+    domain.gsub(".","_").strip.chomp("/")
   end
   
   def url_id
@@ -27,8 +27,10 @@ class Affiliate < ActiveRecord::Base
   def generate_thumbnail
     wt = Webthumb.new(APP_CONFIG['webthumb_api']['key'])
     job = wt.thumbnail(:url => url)
-    job.write_file(job.fetch_when_complete(:medium2), "#{RAILS_ROOT}/public/data/#{url_id}.png")
-    job.write_file(job.fetch_when_complete(:small), "#{RAILS_ROOT}/public/data/#{url_id}_small.png")
+    unless job.nil?
+      job.write_file(job.fetch_when_complete(:medium2), "#{RAILS_ROOT}/public/data/#{url_id}.png")
+      job.write_file(job.fetch_when_complete(:small), "#{RAILS_ROOT}/public/data/#{url_id}_small.png")
+    end
   end
   
   def thumbnail_url size = ""
@@ -79,7 +81,10 @@ class Affiliate < ActiveRecord::Base
     @feed = YAML.load(open("http://ucp.org/sandbox/activeaffiliates.cfm?apikey=#{APP_CONFIG['ucp_api']['key']}"))
     @feed.each do |f,org|
       unless org["affiliate_name"].nil?
-     a = Affiliate.find_or_create_by_org_name(org["affiliate_name"].chomp(';')) 
+     a = Affiliate.find_or_create_by_org_name(org["affiliate_name"].chomp(';'))
+          a.org_name = org["affiliate_name"].chomp(';')
+          a.url = org["affiliate_url"].chomp(';').strip.chomp('/')
+          a.domain = a.url
           a.siteid = org["affiliate_id"].chomp(';') 
           a.name_abbr = org["affiliate_name_abbr"].chomp(';')
           a.address1 = org["affiliate_address1"].value.chomp(';') unless org["affiliate_address1"].nil?
@@ -114,9 +119,7 @@ class Affiliate < ActiveRecord::Base
   def self.generate_thumbnails
     wt = Webthumb.new(APP_CONFIG['webthumb_api']['key'])
     Affiliate.all.each do |a|  
-      job = wt.thumbnail(:url => a.url)
-      job.write_file(job.fetch_when_complete(:medium2), "#{RAILS_ROOT}/public/data/#{a.url_id}.png")
-      job.write_file(job.fetch_when_complete(:small), "#{RAILS_ROOT}/public/data/#{a.url_id}_small.png")
+      a.generate_thumbnail
     end
   end
   
