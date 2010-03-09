@@ -9,7 +9,7 @@ class UsersController < ApplicationController
 
   # GET /users/1/edit
   def edit
-    @user = User.find(params[:id])
+    @user = current_user
   end
 
   # POST /users
@@ -27,18 +27,13 @@ class UsersController < ApplicationController
   # PUT /users/1
   # PUT /users/1.xml
   def update
-    @user = User.find(params[:id])
-
-    respond_to do |format|
+    @user = current_user
       if @user.update_attributes(params[:user])
-        flash[:notice] = 'User was successfully updated.'
-        format.html { redirect_to(@user) }
-        format.xml  { head :ok }
+        flash[:notice] = 'User profile was successfully updated.'
+        redirect_to root_url
       else
-        format.html { render :action => "edit" }
-        format.xml  { render :xml => @user.errors, :status => :unprocessable_entity }
+        render :action => "edit" 
       end
-    end
   end
 
   # DELETE /users/1
