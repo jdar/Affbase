@@ -26,7 +26,7 @@ class AffiliatesController < ApplicationController
   # GET /affiliates/1
   # GET /affiliates/1.xml
   def show
-    @affiliate = Affiliate.find(params[:id])
+    @affiliate = Affiliate.find_by_domain(params[:id].gsub("_","."))
 
     respond_to do |format|
       format.html # show.html.erb
